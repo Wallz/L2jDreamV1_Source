@@ -1,0 +1,121 @@
+<html>
+<title>
+Character Management Menu
+</title>
+<body>
+<center>
+<table width=240 bgcolor="12334">
+	<tr>
+		<td><button value="Main" action="bypass -h admin_admin" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Game" action="bypass -h admin_admin2" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Effects" action="bypass -h admin_admin3" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="GM" action="bypass -h admin_admin4" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<br1>
+<font color="333333" align="center">_______________________________________</font>
+<br>
+<font color="LEVEL">
+<table width=210>
+	<tr>
+		<td>Character:</td>
+		<td><edit var="menu_command" width=140 height=15></td>
+	</tr>
+</table>
+<br>
+<center>
+<table width=260>
+	<tr>
+		<td><button value="Go" action="bypass -h admin_goto_char_menu $menu_command" width=50 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Kick" action="bypass -h admin_kick_menu $menu_command" width=50 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Ban Chr" action="bypass -h admin_changelvl $menu_command -100" width=50 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Ban Acc" action="bypass -h admin_ban_menu $menu_command" width=50 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Jail" action="bypass -h admin_jail $menu_command" width=50 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td><button value="Get" action="bypass -h admin_recall_char_menu $menu_command" width=50 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Kill" action="bypass -h admin_kill_menu $menu_command" width=50 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="UnbanChr" action="bypass -h admin_changelvl $menu_command 0" width=50 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Unban Ac" action="bypass -h admin_unban_menu $menu_command" width=50 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="UnJail" action="bypass -h admin_unjail $menu_command" width=50 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td><button value="GetParty" action="bypass -h admin_recall_party_menu $menu_command" width=50 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Get Clan" action="bypass -h admin_recall_clan_menu $menu_command" width=50 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<br>
+<table width=260>
+	<tr>
+		<td width=15><font color="00FFFF">X:</font></td>
+		<td><edit var="char_cord_x" width=55></td>
+		<td width=15><font color="00FFFF">Y:</font></td>
+		<td><edit var="char_cord_y" width=55></td>
+		<td width=15><font color="00FFFF">Z:</font></td>
+		<td><edit var="char_cord_z" width=55></td>
+		<td><button value="Teleport" action="bypass -h admin_teleport_character_to_menu $char_cord_x $char_cord_y $char_cord_z" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<br>
+<table width=260>
+	<tr>
+		<td width=101>Starter Towns:</td>
+		<td width="102">Mainland:</font></td>
+	</tr>
+	<tr>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command 9745 15606 -4574">Dark Elven Village</a></td>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command 15670 142983 -2705">Town of Dion</a></td>
+	</tr>
+	<tr>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command 115113 -178212 -901">Dwarven Village</a></td>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command 17838 170274 -3508">Floran Village</a></td>
+	</tr>
+	<tr>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command 46934 51467 -2977">Elven Village</a></td>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command 83400 147943 -3404">Town of Giran</a></td>
+	</tr>
+	<tr>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command -44836 -112352 -239">Orc Village</a></td>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command -80826 149775 -3043">Gludin Village</a></td>
+	</tr>
+	<tr>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command -84318 244579 -3730">Talking Island Village</a></td>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command -12672 122776 -3116">Town of Gludio</a></td>
+	</tr> 
+	<tr>
+		<td><font color="LEVEL">Arena:</font></td>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command 117110 76883 -2695">Hunters Village</a></td>
+	</tr>
+	<tr>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command -86979 142402 -3643">Gludin Arena</a></td>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command 147450 26741 -2204">Town of Aden</a></td>
+	</tr>
+	<tr>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command 147451 46728 -3410">Coliseum</a></td>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command 82956 53162 -1495">Town of Oren</a></td>
+	</tr>
+	<tr>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command 73890 142656 -3778">Giran Arena</a></td>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command 43799 -47727 -798">Rune Township</a></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command 147928 -55273 -2734">Town of Goddard</a></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command 111409 219364 -3545">Heine</a></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><a action="bypass -h admin_teleport_character_to_menu $menu_command 87386 -143246 -1293 ">Town of Schuttgart</a></td>
+	</tr>
+</table>
+</center>
+<br>
+<font color="333333" align="center">_______________________________________</font>
+<br1>
+<font color="3399ff">Server Software created by L2Dream.</font>
+</center>
+</body>
+</html>

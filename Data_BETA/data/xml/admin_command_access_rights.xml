@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- Admin: Events -->
+	<adm_cmd adminCommand="admin_event" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_start" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_abort" accessLevel="2"/>
+
+	<!-- Admin: Buffs -->
+	<adm_cmd adminCommand="admin_getbuffs" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_stopbuff" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_stopallbuffs" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_areacancel" accessLevel="2"/>
+
+	<!-- Admin: Cursed Weapons -->
+	<adm_cmd adminCommand="admin_cw_info" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_cw_remove" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_cw_goto" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_cw_reload" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_cw_add" accessLevel="1"/>
+	
+	<!-- TODO check improve code etc -->
+	<adm_cmd adminCommand="admin_admin" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_admin1" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_admin2" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_admin3" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_admin4" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_config_server" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_config_server2" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_config_reload_menu" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_edit" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_changename_menu" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_character_info" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_find_ip" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_find_account" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_spawn_menu" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_otspawn" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_list_groups" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_delay" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_debug" accessLevel="1"/>
+
+	<!-- Section: Noble -->
+	<adm_cmd adminCommand="admin_setnoble" accessLevel="1"/>
+
+	<!-- Section: Donator System -->
+	<adm_cmd adminCommand="admin_setdonator" accessLevel="1"/>
+
+	<!-- Section: area Commands -->
+	<adm_cmd adminCommand="admin_areaskill" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_areakill" accessLevel="2"/>
+
+	<!-- Section: IRC Config -->
+	<adm_cmd adminCommand="admin_ircm" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_ircc" accessLevel="1"/>
+
+	<!-- Section: Common Commands -->
+	<adm_cmd adminCommand="admin_effect_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_delete" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_gmshop" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_heal" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_help" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_invis" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_hide" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_invul" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_kill" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_kill_monster" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_massress" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_res_monster" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_masskill" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_res" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_setcp" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_sethp" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setmp" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_gmcancel" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_save_stats" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_save_modifications" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_gmspeed" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_gmspeed_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_silence" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_target" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_targets" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_close_window" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_load_npc" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_diet_on" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_diet_off" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_monster_race" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_diet" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_fullfood" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_sendhome" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_bookmark" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_failed" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_fcs" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_region_check" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_camera" accessLevel="2"/>
+
+	<!-- Section: Char Management -->
+	<adm_cmd adminCommand="admin_edit_quest" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_edit_stats" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_edit_class" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_ban" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_ban_acc" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_ban_char" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unban_acc" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unban_char" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_banchat" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unbanchat" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_jail" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_massjail" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_character_disconnect" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_kick" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unban" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_unjail" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_kick_non_gm" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_enchant_info" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_instant_move" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_setchar_cp" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setchar_hp" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setchar_mp" accessLevel="1"/>
+
+	<!-- Section: Clan Hall -->
+	<adm_cmd adminCommand="admin_clanhall" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_clanhalldel" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_clanhallset" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_clanhallteleportself" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_clanhallopendoors" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_clanhallclosedoors" accessLevel="3"/>
+
+	<!-- Section:" announcements -->
+	<adm_cmd adminCommand="admin_add_announcement" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_announce" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_announce_announcements" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_announce_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_del_announcement" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_list_announcements" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_reload_announcements" accessLevel="2"/>
+	
+	<!-- Section: auto announcements -->
+	<adm_cmd adminCommand="admin_autoannounce" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_list_autoannouncements" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_add_autoannouncement" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_del_autoannouncement" accessLevel="1"/>
+
+	<!-- Section: Reload Commands -->
+	<adm_cmd adminCommand="admin_cache_htm_rebuild" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_cache_htm_reload" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_cache_crest_fix" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_cache_crest_rebuild" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_cache_crest_reload" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_quest_reload" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_teleport_reload" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_spawn_reload" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_zone_reload" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_reload" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_reload_menu" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_config_reload" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_cache_reload_path" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_cache_reload_file" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_script_load" accessLevel="1"/>
+
+	<!-- Section: Door Control -->
+	<adm_cmd adminCommand="admin_close" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_closeall" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_open" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_openall" accessLevel="2"/>
+
+	<!-- Section: Char Modification -->
+	<adm_cmd adminCommand="admin_setclass" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_add_exp_sp" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_add_exp_sp_to_character" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_remove_exp_sp" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_add_level" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_addlevel" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_set_level" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_remlevel" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_changename" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_character_list" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_current_player" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_edit_character" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_find_character" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_nokarma" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_rec" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_restore_character" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_repair_character" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_setew" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setkarma" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_setcolor" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setname" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setsex" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_settitle" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_show_characters" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_sethero" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_remclanwait" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setinvul" accessLevel="1"/>
+
+	<!-- Section: Edit Npc -->
+	<adm_cmd adminCommand="admin_edit_npc" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_save_npc" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_show_droplist" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_edit_drop" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_add_drop" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_del_drop" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_showShop" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_showCustomShop" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_showShopList" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_showCustomShopList" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_addShopItem" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_delShopItem" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_addCustomShopItem" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_delCustomShopItem" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_box_access" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_editShopItem" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_editCustomShopItem" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_show_skilllist_npc" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_edit_skill_npc" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_add_skill_npc" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_del_skill_npc" accessLevel="2"/>
+
+	<!-- Section: Effects -->
+	<adm_cmd adminCommand="admin_atmosphere" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_atmosphere_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_earthquake" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_earthquake_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_bighead" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_shrinkhead" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unpara_all" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_para_all" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unpara" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_para" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_polymorph" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unpolymorph" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_polyself" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unpolyself" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_effect" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_social" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_play_sounds" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_play_sound" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_abnormal" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_polyself_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_abnormal_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unpolyself_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_polymorph_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unpolymorph_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unpara_all_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_para_all_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unpara_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_para_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_clearteams" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_setteam_close" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_setteam" accessLevel="3"/>
+
+	<!-- Section: Enchant Menu -->
+	<adm_cmd adminCommand="admin_seteh" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_setec" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_seteg" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_setel" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_seteb" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_setes" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_setle" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_setre" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_setlf" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_setrf" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_seten" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_setun" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_setba" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_enchant" accessLevel="2"/>
+
+	<!-- Section: Element -->
+	<adm_cmd adminCommand="admin_setlh" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setlc" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setll" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setlg" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setlb" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setlw" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setls" accessLevel="1"/>
+
+	<!-- Section: Olympiad -->
+	<adm_cmd adminCommand="admin_saveolymp" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_manualhero" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_endolympiad" accessLevel="1"/>
+
+	<!-- Section: Server Settings -->
+	<adm_cmd adminCommand="admin_server_shutdown" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_server_restart" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_server_abort" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_server_gm_only" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_server_all" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_server_max_player" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_server_list_clock" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_server_login" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_rateinfo" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_give_souls" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_enchantinfo" accessLevel="1"/>
+
+	<!-- Section: Menus -->
+	<adm_cmd adminCommand="admin_char_manage" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_teleport_character_to_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_recall_char_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_recall_party_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_recall_clan_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_goto_char_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_kick_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_kill_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_ban_menu" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_unban_menu" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_bbs" accessLevel="1"/>
+
+	<!-- Section: Mob Group Control -->
+	<adm_cmd adminCommand="admin_mobmenu" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_create" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_spawn" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_unspawn" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_kill" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_idle" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_attack" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_rnd" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_return" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_follow" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_casting" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_nomove" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_attackgrp" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_invul" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_remove" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_list" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_mobgroup_delete" accessLevel="2"/>
+
+	<!-- Section: Path Node -->
+	<adm_cmd adminCommand="admin_pn_info" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_show_path" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_path_debug" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_show_pn" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_find_path" accessLevel="1"/>
+
+	<!-- Section: Ride -->
+	<adm_cmd adminCommand="admin_ride_wyvern" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_ride_strider" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unride_wyvern" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unride_strider" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unride" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_ride_wolf" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unride_wolf" accessLevel="3"/>
+
+	<!-- Section: Siege -->
+	<adm_cmd adminCommand="admin_siege" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_add_attacker" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_add_defender" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_add_guard" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_list_siege_clans" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_clear_siege_list" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_move_defenders" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_spawn_doors" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_endsiege" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setsiegetime" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_startsiege" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setcastle" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_remaining_time_to_end_siege" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_removecastle" accessLevel="1"/>
+
+	<!-- Section: Skills -->
+	<adm_cmd adminCommand="admin_show_skills" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_remove_skills" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_skill_list" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_skill_index" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_add_skill" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_add_clan_skill" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_remove_skill" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_get_skills" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_reset_skills" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_give_all_skills" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_remove_all_skills" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_ench_skills" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_cast_skill" accessLevel="1"/>
+
+	<!-- Section: Spawns -->
+	<adm_cmd adminCommand="admin_spawnsearch_menu" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_spawndelay" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_spawnlist" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_list_spawns" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_spawnlist_menu" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_cspawn" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_spawn_once" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_spawnnight" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_spawnday" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_mammon_find" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_mammon_respawn" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_show_spawns" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_spawn" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_spawn_index" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_spawn_monster" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_respawnall" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_unspawnall" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_frintezza" accessLevel="1"/>
+
+	<!-- Section: Teleport -->
+	<adm_cmd adminCommand="admin_show_moves" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_show_moves_other" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_show_teleport" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_teleport_to_character" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_teleportto" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_move_to" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_delbookmark" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_teleport_character" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_recall" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_recall_party" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_massrecall" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_recall_gm" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_recall_offline" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_walk" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_explore" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_recall_npc" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_gonorth" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_go" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_gosouth" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_goeast" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_gowest" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_goup" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_godown" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_tele" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_teleto" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_instant_move" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_sendhome" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_recall_pt" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_recall_all" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_disable_gk" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_enable_gk" accessLevel="2"/>
+
+	<!-- Section: Test Commands -->
+	<adm_cmd adminCommand="admin_known" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_mp" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_msg" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_docast" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_docastself" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_social_menu" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_heading" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_stats" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_fight_calculator" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_fight_calculator_show" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_mons" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_forge" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_forge2" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_forge3" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_zone_check" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_show_ai" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_boat" accessLevel="1"/>
+
+	<!-- Section: Memory (RAM) -->
+	<adm_cmd adminCommand="admin_memoryusage" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_freememory" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_totalmemory" accessLevel="1"/>
+
+	<!-- Section: Transformations -->
+	<adm_cmd adminCommand="admin_transform" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_transform_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_untransform" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_untransform_menu" accessLevel="3"/>
+
+	<!-- Section: Petitions -->
+	<adm_cmd adminCommand="admin_accept_petition" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_reject_petition" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_reset_petitions" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_view_petition" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_view_petitions" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_force_peti" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_add_peti_chat" accessLevel="3"/>
+
+	<!-- Section: GM Settings -->
+	<adm_cmd adminCommand="admin_changelvl" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_gm" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_gmchat" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_gmchat_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_gmlistoff" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_gmliston" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_snoop" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_unsnoop" accessLevel="2"/>
+
+	<!-- Section: Miscellaneous -->
+	<adm_cmd adminCommand="admin_buy" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_create_item" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_itemcreate" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_create_adena" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_create_coin" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_give_item_target" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_give_item_to_all" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_clean_inventory" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_pledge" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_set" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_tradeoff" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_unblockip" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_set_menu" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_set_mod" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_sortmulti" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_smartshop" accessLevel="3"/>
+	<adm_cmd adminCommand="admin_setaio" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_removeaio" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setvip" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_removevip" accessLevel="1"/>
+
+	<!-- Section: Geodata -->
+	<adm_cmd adminCommand="admin_geo_z" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_geo_type" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_geo_nswe" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_geo_los" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_geo_position" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_geo_bug" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_geo_load" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_geo_unload" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_geoeditor_connect" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_geoeditor_join" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_geoeditor_leave" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_ge_status" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_ge_mode" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_ge_join" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_ge_leave" accessLevel="1"/>
+
+	<!-- Section: Manor Manager Control -->
+	<adm_cmd adminCommand="admin_manor" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_manor_reset" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_manor_info" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_manor_setnext" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_manor_approve" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_manor_disable" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_manor_setmaintenance" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_manor_save" accessLevel="2"/>
+
+	<!-- Section: Clan" actions -->
+	<adm_cmd adminCommand="admin_setclanlv" accessLevel="2"/>
+
+	<!-- Section: Seven Signs -->
+	<adm_cmd adminCommand="admin_seven_signs_cycle" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_seven_signs_period" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_festival_time" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_festival_start" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_festival_end" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_spawn_orators" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_spawn_preachers" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_unspawn_orators" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_unspawn_preachers" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_spawn_dusk_crest" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_spawn_dawn_crest" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_uspawn_dawn_crest" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_uspawn_dusk_crest" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_spawn_mammon" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_uspawn_mammon" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_spawn_lilith" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_spawn_anakim" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_unspawn_lilith" accessLevel="2"/>
+	<adm_cmd adminCommand="admin_unspawn_anakim" accessLevel="2"/>
+
+	<!-- Section: Instances -->
+	<adm_cmd adminCommand="admin_createinstance" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_destroyinstance" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_listinstances" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_setinstance" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_ghoston" accessLevel="1"/>
+	<adm_cmd adminCommand="admin_ghostoff" accessLevel="1"/>
+</list>

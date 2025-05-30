@@ -1,0 +1,2 @@
+%name% edit announcements.txt !
+Have fun with project! [Dream Team]

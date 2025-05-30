@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Dream_GameServer" default="dist" basedir=".">
+
+	<property name="src" location="java"/>
+	<property name="lib" location="lib"/>
+	<property name="build" location="build"/>
+	<property name="build.classes" location="${build}/classes"/>
+	<property name="build.dist" location="${build}/dist"/>
+	<property name="build.dist.login" location="${build.dist}/login"/>
+	<property name="build.dist.login.lib" location="${build.dist}/login/lib"/>
+	<property name="build.dist.game" location="${build.dist}/game"/>
+	<property name="build.dist.game.lib" location="${build.dist}/game/lib"/>
+
+	<path id="classpath">
+		<fileset dir="${lib}">
+			<include name="*.jar"/>
+		</fileset>
+	</path>
+
+	<target name="init" depends="clean,checkRequirements" description="Create the output directories.">
+		<mkdir dir="${build}"/>
+		<mkdir dir="${build.classes}"/>
+		<mkdir dir="${build.dist}"/>
+		<mkdir dir="${build.dist.login}"/>
+		<mkdir dir="${build.dist.login.lib}"/>
+		<mkdir dir="${build.dist.game}"/>
+		<mkdir dir="${build.dist.game.lib}"/>
+	</target>
+
+	<target name="compile" depends="init" description="Compile the source.">
+		<javac destdir="${build.classes}" optimize="on" compiler="javac1.7" debug="true" debuglevel="lines,vars,source" includeantruntime="false" source="1.7" target="1.7" encoding="utf-8" nowarn="off">
+			<src path="${src}"/>
+			<classpath refid="classpath"/>   
+		</javac>
+
+	</target>
+
+	<target name="jar" depends="compile" description="Create the jar file">
+
+        <jar destfile="${build}/l2dream.jar">
+            <fileset dir="${build.classes}"/>
+        </jar>
+
+    	<copy todir="${build.dist.login.lib}">
+            <fileset dir="${build}">
+                <include name="l2dream.jar"/>
+			</fileset>
+        </copy>
+
+    	<copy todir="${build.dist.game.lib}">
+            <fileset dir="${build}">
+                <include name="l2dream.jar"/>
+			</fileset>
+        </copy>
+
+	</target>
+
+	<target name="dist" depends="jar">
+
+		<copy todir="${build.dist.game.lib}">
+			<fileset dir="${src}/../lib">
+				<include name="*.jar"/>
+			</fileset>
+		</copy>
+
+		<copy todir="${build.dist.login.lib}">
+			<fileset dir="${src}/../lib">
+				<include name="c3p0-0.9.1.2.jar"/>
+				<include name="commons-logging-1.1.jar"/>
+				<include name="mysql-connector-java-5.1.18-bin.jar"/>
+				<include name="javolution-5.5.1.jar"/>
+			</fileset>
+		</copy>
+
+		<copy todir="${build.dist.login}">
+			<fileset dir="dist">
+				<include name="login.bat"/>
+				<include name="register.bat"/>
+				<include name="account.bat"/>
+			</fileset>
+		</copy>
+
+		<copy todir="${build.dist.game}">
+			<fileset dir="dist">
+				<include name="game.bat"/>
+			</fileset>
+		</copy>
+
+		<mkdir dir="${build.dist.game}/log"/>
+		<mkdir dir="${build.dist.login}/log"/>
+		<mkdir dir="${build.dist.login}/config"/>
+		<mkdir dir="${build.dist.game}/config/"/>
+
+    	<copy todir="${build.dist.game}/config">
+			<fileset dir="config">
+				<include name="**/*.*"/>
+				<exclude name="loginserver.*"/>
+				<exclude name="other/banned_ip.*"/>
+				<exclude name="other/servername.*"/>
+			</fileset>
+        </copy>
+
+    	<copy todir="${build.dist.login}/config">
+			<fileset dir="config">
+				<include name="other/log.*"/>
+				<include name="other/banned_ip.*"/>
+				<include name="other/console.*"/>
+				<include name="other/servername.*"/>
+				<include name="loginserver.*"/>
+			</fileset>
+		</copy>
+
+		<zip destfile="${build}/GameServer.zip" basedir="${build.dist}" />
+	</target>
+
+	<target name="clean" description="Remove the output directories">
+		<delete dir="${build}"/>
+	</target>
+	
+	<target name="checkRequirements" description="Check requirements.">
+			
+			<echo>Verification of your JDK version.</echo>
+			<available classname="java.lang.AutoCloseable" property="JDK7.present" />
+			<fail unless="JDK7.present" message="Java 1.7 is required, but your version is Java ${ant.java.version}. Install latest JDK." />
+		
+		</target>
+
+</project>

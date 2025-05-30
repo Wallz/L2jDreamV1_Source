@@ -1,0 +1,67 @@
+<html>
+<title>
+Character Selection Menu
+</title>
+<body>
+<center>
+<table width=240 bgcolor="12334">
+	<tr>
+		<td><button value="Main" action="bypass -h admin_admin" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Game" action="bypass -h admin_admin2" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Effects" action="bypass -h admin_admin3" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="GM" action="bypass -h admin_admin4" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<br1>
+<font color="333333" align="center">_______________________________________</font>
+<br1>
+<button value="Back" action="bypass -h admin_current_player" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2">
+<br1>
+Editing: 
+<font color="LEVEL">
+%name%
+</font>
+<br1>
+<table>
+	<tr>
+		<td>Lv: <font color="LEVEL">%level%</font></td>
+	</tr>
+	<tr>
+		<td>Class: <font color="LEVEL">%class%</font></td>
+	</tr>
+	<tr>
+		<td>Exp: <font color="LEVEL">%xp%</font></td>
+	</tr>
+	<tr>
+		<td>SP: <font color="LEVEL">%sp%</font></td>
+	</tr>
+</table>
+<br>
+<table width=270>
+	<tr>
+		<td width=30>Exp:</td><td><edit var="exp_to_add" width=50></td>
+		<td width=20>SP:</td><td><edit var="sp_to_add" width=50></td>
+		<td><button value="Add" action="bypass -h admin_add_exp_sp $exp_to_add $sp_to_add" width=50 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Remove" action="bypass -h admin_remove_exp_sp $exp_to_add $sp_to_add" width=70 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<br>
+<table>
+	<tr>
+		<td width=32>Level:</td>
+		<td><edit var="lv" width=50></td>
+		<td><button value="Set Level" action="bypass -h admin_set_level $lv" width=80 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<br>
+<font color="333333" align="center">_______________________________________</font>
+<br>
+<font color="CC9966">
+Note: Fill BOTH values before saving the modifications
+<br1>
+and use 0 if no changes are needed.
+<br1>
+<font color="3399ff">Server Software created by L2Dream.</font>
+</font>
+</body>
+</html>

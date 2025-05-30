@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<door doorID="24190001" function="open"/>
+	<door doorID="24190002" function="open"/>
+	<door doorID="24190003" function="open"/>
+	<door doorID="24190004" function="open"/>
+	<door doorID="23180001" function="open"/>
+	<door doorID="23180002" function="open"/>
+	<door doorID="23180003" function="open"/>
+	<door doorID="23180004" function="open"/>
+	<door doorID="23180005" function="open"/>
+	<door doorID="23180006" function="open"/>
+</list>

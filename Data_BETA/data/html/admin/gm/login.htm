@@ -1,0 +1,59 @@
+<html>
+<title>
+Login Server
+</title>
+<body>
+<center>
+<table width=240 bgcolor="12334">
+	<tr>
+		<td><button value="Main" action="bypass -h admin_admin" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Game" action="bypass -h admin_admin2" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Effects" action="bypass -h admin_admin3" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="GM" action="bypass -h admin_admin4" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<br1>
+<font color="333333" align="center">_______________________________________</font>
+<br>
+<table width=240>
+	<tr>
+		<td width=100><font color="LEVEL">Max Players:</font></td>
+		<td><edit var="menu_command" width=120 height=15></td>
+	</tr>
+</table>
+<br>
+<br>
+<table width=260>
+	<tr>
+		<td><font color="CC9966">Registered as:</font></td>
+		<td>%server_name%</td>
+	</tr>
+	<tr>
+		<td><font color="CC9966">Status:</font> %status%</td>
+		<td><font color="CC9966">Clock:</font> %clock%</td>
+	</tr>
+	<tr>
+		<td><font color="CC9966">Brackets:</font> %brackets%</td>
+		<td><font color="CC9966">Max Players:</font> %max_players%</td>
+	</tr>
+</table>
+<center>
+<br>
+<br>
+<table width=260>
+	<tr>
+		<td><button value="Gm Only" action="bypass -h admin_server_gm_only" width=80 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Kick all non GMs" action="bypass -h admin_kick_non_gm" width=80 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Everyone" action="bypass -h admin_server_all" width=80 height=15 back="sek.cbui94" fore="sek.cbui92"></td></tr><tr>
+		<td><button value="Clock On" action="bypass -h admin_server_list_clock on" width=80 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Clock Off" action="bypass -h admin_server_list_clock off" width=80 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Set Max Players" action="bypass -h admin_server_max_player $menu_command" width=80 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<br>
+<font color="333333" align="center">_______________________________________</font>
+<br1>
+<font color="3399ff">Server Software created by L2Dream.</font>
+</center>
+</body>
+</html>

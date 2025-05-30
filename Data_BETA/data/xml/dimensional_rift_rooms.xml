@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<list>
+	<!--  peace zone (waiting room) -->
+	<room type="0" room_id="0" xMin="-115440" xMax="-114160" yMin="-182160" yMax="-178048" zMin="-6816" zMax="-6240" xT="-114790" yT="-180576" zT="-6752" boss="0"/>
+	<!--  dimensional rift zone -->
+	<room type="0" room_id="1" xMin="-120576" xMax="-109024" yMin="-187328" yMax="-172880" zMin="-6816" zMax="-6240" xT="0" yT="0" zT="0" boss="0"/>
+	<!--  Recruit Area -->
+	<!--  room 1 (small / 8 mobs) -->
+	<room type="1" room_id="1" xMin="-112368" xMax="-111584" yMin="-182832" yMax="-182064" zMin="-6816" zMax="-6240" xT="-111976" yT="-182448" zT="-6752" boss="0"/>
+	<!--  room 2 (small / 8 mobs) -->
+	<room type="1" room_id="2" xMin="-111472" xMax="-110704" yMin="-182832" yMax="-182064" zMin="-6816" zMax="-6240" xT="-111088" yT="-182448" zT="-6752" boss="0"/>
+	<!--  room 3 (small / 6 mobs) -->
+	<room type="1" room_id="3" xMin="-110688" xMax="-109904" yMin="-180944" yMax="-180176" zMin="-6816" zMax="-6240" xT="-110296" yT="-180560" zT="-6752" boss="0"/>
+	<!--  room 4 (small / 6 mobs) -->
+	<room type="1" room_id="4" xMin="-109808" xMax="-109024" yMin="-180944" yMax="-180176" zMin="-6816" zMax="-6240" xT="-109416" yT="-180560" zT="-6752" boss="0"/>
+	<!--  room 5 (large / 6 mobs + 6 chests) -->
+	<room type="1" room_id="5" xMin="-114032" xMax="-112496" yMin="-181968" yMax="-181072" zMin="-6816" zMax="-6240" xT="-113264" yT="-181520" zT="-6752" boss="0"/>
+	<!--  room 6 (large / 12 mobs) -->
+	<room type="1" room_id="6" xMin="-112368" xMax="-110816" yMin="-181008" yMax="-180112" zMin="-6816" zMax="-6240" xT="-111592" yT="-180560" zT="-6752" boss="0"/>
+	<!--  room 7 (large / 8 mobs + 4 chests) -->
+	<room type="1" room_id="7" xMin="-110576" xMax="-109024" yMin="-182896" yMax="-182000" zMin="-6816" zMax="-6240" xT="-109800" yT="-182448" zT="-6752" boss="0"/>
+	<!--  room 8 (large / 12 mobs) -->
+	<room type="1" room_id="8" xMin="-112368" xMax="-110816" yMin="-181968" yMax="-181072" zMin="-6816" zMax="-6240" xT="-111592" yT="-181520" zT="-6752" boss="0"/>
+	<!--  room 9 (large / boss) -->
+	<room type="1" room_id="9" xMin="-110688" xMax="-109136" yMin="-181968" yMax="-181072" zMin="-6816" zMax="-6240" xT="-109912" yT="-181520" zT="-6752" boss="1"/>
+	<!--  Soldier Area -->
+	<!--  room 1 (small / 8 mobs) -->
+	<room type="2" room_id="1" xMin="-112368" xMax="-111584" yMin="-180016" yMax="-179232" zMin="-6816" zMax="-6240" xT="-111976" yT="-179624" zT="-6752" boss="0"/>
+	<!--  room 2 (small / 8 mobs) -->
+	<room type="2" room_id="2" xMin="-111472" xMax="-110704" yMin="-180016" yMax="-179232" zMin="-6816" zMax="-6240" xT="-111088" yT="-179624" zT="-6752" boss="0"/>
+	<!--  room 3 (small / 6 mobs) -->
+	<room type="2" room_id="3" xMin="-110688" xMax="-109904" yMin="-178128" yMax="-177360" zMin="-6816" zMax="-6240" xT="-110296" yT="-177744" zT="-6752" boss="0"/>
+	<!--  room 4 (small / 6 mobs) -->
+	<room type="2" room_id="4" xMin="-109808" xMax="-109024" yMin="-178128" yMax="-177360" zMin="-6816" zMax="-6240" xT="-109416" yT="-177744" zT="-6752" boss="0"/>
+	<!--  room 5 (large / 6 mobs + 6 chests) -->
+	<room type="2" room_id="5" xMin="-114032" xMax="-112496" yMin="-179136" yMax="-178240" zMin="-6816" zMax="-6240" xT="-113264" yT="-178688" zT="-6752" boss="0"/>
+	<!--  room 6 (large / 12 mobs) -->
+	<room type="2" room_id="6" xMin="-112368" xMax="-110816" yMin="-178192" yMax="-177296" zMin="-6816" zMax="-6240" xT="-111592" yT="-177744" zT="-6752" boss="0"/>
+	<!--  room 7 (large / 8 mobs + 4 chests) -->
+	<room type="2" room_id="7" xMin="-110576" xMax="-109024" yMin="-180064" yMax="-179168" zMin="-6816" zMax="-6240" xT="-109800" yT="-179624" zT="-6752" boss="0"/>
+	<!--  room 8 (large / 12 mobs) -->
+	<room type="2" room_id="8" xMin="-112368" xMax="-110816" yMin="-179136" yMax="-178240" zMin="-6816" zMax="-6240" xT="-111592" yT="-178688" zT="-6752" boss="0"/>
+	<!--  room 9 (large / boss) -->
+	<room type="2" room_id="9" xMin="-110688" xMax="-109136" yMin="-179136" yMax="-178240" zMin="-6816" zMax="-6240" xT="-109912" yT="-178688" zT="-6752" boss="1"/>
+	<!--  Officer Area -->
+	<!--  room 1 (small / 8 mobs) -->
+	<room type="3" room_id="1" xMin="-114256" xMax="-113488" yMin="-176208" yMax="-175440" zMin="-6816" zMax="-6240" xT="-113872" yT="-175824" zT="-6752" boss="0"/>
+	<!--  room 2 (small / 8 mobs) -->
+	<room type="3" room_id="2" xMin="-114256" xMax="-113488" yMin="-175328" yMax="-174560" zMin="-6816" zMax="-6240" xT="-113872" yT="-174944" zT="-6752" boss="0"/>
+	<!--  room 3 (small / 6 mobs) -->
+	<room type="3" room_id="3" xMin="-116144" xMax="-115360" yMin="-174544" yMax="-173760" zMin="-6816" zMax="-6240" xT="-115752" yT="-174152" zT="-6752" boss="0"/>
+	<!--  room 4 (small / 6 mobs) -->
+	<room type="3" room_id="4" xMin="-116144" xMax="-115360" yMin="-173648" yMax="-172880" zMin="-6816" zMax="-6240" xT="-115752" yT="-173264" zT="-6752" boss="0"/>
+	<!--  room 5 (large / 6 mobs + 6 chests) -->
+	<room type="3" room_id="5" xMin="-115248" xMax="-114352" yMin="-177888" yMax="-176352" zMin="-6816" zMax="-6240" xT="-114800" yT="-177120" zT="-6752" boss="0"/>
+	<!--  room 6 (large / 12 mobs) -->
+	<room type="3" room_id="6" xMin="-116208" xMax="-115312" yMin="-176208" yMax="-174672" zMin="-6816" zMax="-6240" xT="-115760" yT="-175440" zT="-6752" boss="0"/>
+	<!--  room 7 (large / 8 mobs + 4 chests) -->
+	<room type="3" room_id="7" xMin="-114320" xMax="-113424" yMin="-174416" yMax="-172880" zMin="-6816" zMax="-6240" xT="-113872" yT="-173648" zT="-6752" boss="0"/>
+	<!--  room 8 (large / 12 mobs) -->
+	<room type="3" room_id="8" xMin="-115248" xMax="-114352" yMin="-176208" yMax="-174672" zMin="-6816" zMax="-6240" xT="-114800" yT="-175440" zT="-6752" boss="0"/>
+	<!--  room 9 (large / boss) -->
+	<room type="3" room_id="9" xMin="-115248" xMax="-114352" yMin="-174528" yMax="-172992" zMin="-6816" zMax="-6240" xT="-114800" yT="-173832" zT="-6752" boss="1"/>
+	<!--  Captain Area -->
+	<!--  room 1 (small / 8 mobs) -->
+	<room type="4" room_id="1" xMin="-118016" xMax="-117248" yMin="-178144" yMax="-177376" zMin="-6816" zMax="-6240" xT="-117632" yT="-177760" zT="-6752" boss="0"/>
+	<!--  room 2 (small / 8 mobs) -->
+	<room type="4" room_id="2" xMin="-118896" xMax="-118128" yMin="-178144" yMax="-177376" zMin="-6816" zMax="-6240" xT="-118512" yT="-177760" zT="-6752" boss="0"/>
+	<!--  room 3 (small / 6 mobs) -->
+	<room type="4" room_id="3" xMin="-119696" xMax="-118912" yMin="-180032" yMax="-179248" zMin="-6816" zMax="-6240" xT="-119304" yT="-179640" zT="-6752" boss="0"/>
+	<!--  room 4 (small / 6 mobs) -->
+	<room type="4" room_id="4" xMin="-120576" xMax="-119808" yMin="-180032" yMax="-179248" zMin="-6816" zMax="-6240" xT="-120192" yT="-179640" zT="-6752" boss="0"/>
+	<!--  room 5 (large / 6 mobs + 6 chests) -->
+	<room type="4" room_id="5" xMin="-117104" xMax="-115568" yMin="-179136" yMax="-178240" zMin="-6816" zMax="-6240" xT="-116336" yT="-178688" zT="-6752" boss="0"/>
+	<!--  room 6 (large / 12 mobs) -->
+	<room type="4" room_id="6" xMin="-118784" xMax="-117248" yMin="-180096" yMax="-179200" zMin="-6816" zMax="-6240" xT="-118016" yT="-179648" zT="-6752" boss="0"/>
+	<!--  room 7 (large / 8 mobs + 4 chests) -->
+	<room type="4" room_id="7" xMin="-120576" xMax="-119040" yMin="-178208" yMax="-177312" zMin="-6816" zMax="-6240" xT="-119808" yT="-177760" zT="-6752" boss="0"/>
+	<!--  room 8 (large / 12 mobs) -->
+	<room type="4" room_id="8" xMin="-118784" xMax="-117248" yMin="-179136" yMax="-178240" zMin="-6816" zMax="-6240" xT="-118016" yT="-178688" zT="-6752" boss="0"/>
+	<!--  room 9 (large / boss) -->
+	<room type="4" room_id="9" xMin="-120464" xMax="-118928" yMin="-179136" yMax="-178240" zMin="-6816" zMax="-6240" xT="-119696" yT="-178688" zT="-6752" boss="1"/>
+	<!--  Commander Area -->
+	<!--  room 1 (small / 8 mobs) -->
+	<room type="5" room_id="1" xMin="-118016" xMax="-117248" yMin="-180976" yMax="-180192" zMin="-6816" zMax="-6240" xT="-117632" yT="-180584" zT="-6752" boss="0"/>
+	<!--  room 2 (small / 8 mobs) -->
+	<room type="5" room_id="2" xMin="-118896" xMax="-118128" yMin="-180976" yMax="-180192" zMin="-6816" zMax="-6240" xT="-118512" yT="-180584" zT="-6752" boss="0"/>
+	<!--  room 3 (small / 6 mobs) -->
+	<room type="5" room_id="3" xMin="-119696" xMax="-118912" yMin="-182848" yMax="-182080" zMin="-6816" zMax="-6240" xT="-119304" yT="-182464" zT="-6752" boss="0"/>
+	<!--  room 4 (small / 6 mobs) -->
+	<room type="5" room_id="4" xMin="-120576" xMax="-119808" yMin="-182848" yMax="-182080" zMin="-6816" zMax="-6240" xT="-120192" yT="-182464" zT="-6752" boss="0"/>
+	<!--  room 5 (large / 6 mobs + 6 chests) -->
+	<room type="5" room_id="5" xMin="-117104" xMax="-115568" yMin="-181968" yMax="-181072" zMin="-6816" zMax="-6240" xT="-116336" yT="-181520" zT="-6752" boss="0"/>
+	<!--  room 6 (large / 12 mobs) -->
+	<room type="5" room_id="6" xMin="-118784" xMax="-117248" yMin="-182912" yMax="-182016" zMin="-6816" zMax="-6240" xT="-118016" yT="-182464" zT="-6752" boss="0"/>
+	<!--  room 7 (large / 8 mobs + 4 chests) -->
+	<room type="5" room_id="7" xMin="-120576" xMax="-119040" yMin="-181040" yMax="-180144" zMin="-6816" zMax="-6240" xT="-119808" yT="-180592" zT="-6752" boss="0"/>
+	<!--  room 8 (large / 12 mobs) -->
+	<room type="5" room_id="8" xMin="-118784" xMax="-117248" yMin="-181968" yMax="-181072" zMin="-6816" zMax="-6240" xT="-118016" yT="-181520" zT="-6752" boss="0"/>
+	<!--  room 9 (large / boss) -->
+	<room type="5" room_id="9" xMin="-120464" xMax="-118928" yMin="-181968" yMax="-181072" zMin="-6816" zMax="-6240" xT="-119696" yT="-181520" zT="-6752" boss="1"/>
+	<!--  Hero Area -->
+	<!--  room 1 (small / 8 mobs) -->
+	<room type="6" room_id="1" xMin="-116112" xMax="-115344" yMin="-184768" yMax="-184000" zMin="-6816" zMax="-6240" xT="-115728" yT="-184384" zT="-6752" boss="0"/>
+	<!--  room 2 (small / 8 mobs) -->
+	<room type="6" room_id="2" xMin="-116112" xMax="-115344" yMin="-185648" yMax="-184880" zMin="-6816" zMax="-6240" xT="-115728" yT="-185264" zT="-6752" boss="0"/>
+	<!--  room 3 (small / 6 mobs) -->
+	<room type="6" room_id="3" xMin="-114240" xMax="-113472" yMin="-186448" yMax="-185680" zMin="-6816" zMax="-6240" xT="-113856" yT="-186064" zT="-6752" boss="0"/>
+	<!--  room 4 (small / 6 mobs) -->
+	<room type="6" room_id="4" xMin="-114240" xMax="-113472" yMin="-187328" yMax="-186560" zMin="-6816" zMax="-6240" xT="-113856" yT="-186944" zT="-6752" boss="0"/>
+	<!--  room 5 (large / 6 mobs + 6 chests) -->
+	<room type="6" room_id="5" xMin="-115248" xMax="-114352" yMin="-183856" yMax="-182320" zMin="-6816" zMax="-6240" xT="-114800" yT="-183088" zT="-6752" boss="0"/>
+	<!--  room 6 (large / 12 mobs) -->
+	<room type="6" room_id="6" xMin="-114304" xMax="-113408" yMin="-185536" yMax="-184000" zMin="-6816" zMax="-6240" xT="-113856" yT="-184768" zT="-6752" boss="0"/>
+	<!--  room 7 (large / 8 mobs + 4 chests) -->
+	<room type="6" room_id="7" xMin="-116176" xMax="-115280" yMin="-187328" yMax="-185792" zMin="-6816" zMax="-6240" xT="-115728" yT="-186560" zT="-6752" boss="0"/>
+	<!--  room 8 (large / 12 mobs) -->
+	<room type="6" room_id="8" xMin="-115248" xMax="-114352" yMin="-185536" yMax="-184000" zMin="-6816" zMax="-6240" xT="-114800" yT="-184768" zT="-6752" boss="0"/>
+	<!--  room 9 (large / boss) -->
+	<room type="6" room_id="9" xMin="-115248" xMax="-114352" yMin="-187216" yMax="-185680" zMin="-6816" zMax="-6240" xT="-114800" yT="-186448" zT="-6752" boss="1"/>
+</list>

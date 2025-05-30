@@ -1,0 +1,82 @@
+<html>
+<title>
+Item Creation
+</title>
+<body>
+<center>
+<table width=240 bgcolor="12334">
+	<tr>
+		<td><button value="Main" action="bypass -h admin_admin" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Game" action="bypass -h admin_admin2" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Effects" action="bypass -h admin_admin3" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="GM" action="bypass -h admin_admin4" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<br1>
+<font color="333333" align="center">_______________________________________</font>
+<br1>
+<font color="LEVEL">
+Item Creation
+</font>
+<br>
+<table width=260>
+	<tr>
+		<td>
+			Fill the ID number in item-id to create the item that you want, 
+			use amount if you need more than one. 
+			<font color="LEVEL">
+				Caution: Do not use amount with non-stackable items
+			</font>
+		</td>
+	</tr>
+</table>
+<br>
+<center>
+<table width=270>
+	<tr>
+		<td>Item-ID:</td>
+		<td>Amount:</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><edit var="itemid" width=50></td>
+		<td><edit var="itemnum" width=70 type=number></td>
+		<td><button value="Create Item" action="bypass -h admin_create_item $itemid $itemnum" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td><button value="Give To Target" action="bypass -h admin_give_item_target $itemid $itemnum" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td><button value="Give To All Online" action="bypass -h admin_give_item_to_all $itemid $itemnum" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td><button value="Clean Inventory" action="bypass -h admin_clean_inventory" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<br>
+<table width=270 cellpadding="4">
+	<tr>
+		<td>Coin Type:</td>
+		<td><combobox width=100 height=17 var=ebox list=Adena;AncientAdena;FestivalAdena;></td>
+	</tr>
+	<tr>
+		<td>Amount:</td>
+		<td><edit var="vbox" width=100 height=12 type=number></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><button value="Create Coin" action="bypass -h admin_create_coin $ebox $vbox" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<font color="333333" align="center">_______________________________________</font>
+<br1>
+<font color="3399ff">Server Software created by L2Dream.</font>
+</center>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<skill id="9999" levels="1" name="Pollen">
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="BEAST_FEED"/>
+		<set name="itemConsumeId" val="6391" />
+		<set name="itemConsumeCount" val="1"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="200"/>
+		<set name="effectRange" val="300"/>
+	</skill>
+</list>

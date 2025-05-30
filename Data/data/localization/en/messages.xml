@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<message id="1" content="Registration on event {0} started. You can register at {1} in {2}."/>
+	<message id="2" content="Your level is incorrect to join."/>
+	<message id="3" content="You can't participate to event with cursed weapon."/>
+	<message id="4" content="You can't participate in this team. There is too much players."/>
+	<message id="5" content="Shuffle"/>
+	<message id="6" content="Balance"/>
+	<message id="7" content="hour"/>
+	<message id="8" content="minute"/>
+	<message id="9" content="second"/>
+	<message id="10" content="Register"/>
+	<message id="11" content="Players"/>
+	<message id="12" content="Join team"/>
+	<message id="13" content="No team"/>
+	<message id="14" content="Death Match"/>
+	<message id="15" content="Base Wars"/>
+	<message id="16" content="Capture the Flag"/>
+	<message id="17" content="Team vs Team"/>
+	<message id="18" content="Event disabled"/>
+	<message id="19" content="Wait for start"/>
+	<message id="20" content="Registration"/>
+	<message id="21" content="Teleportation"/>
+	<message id="22" content="Fight"/>
+	<message id="23" content="Event type"/>
+	<message id="24" content="State"/>
+	<message id="25" content="Left"/>
+	<message id="26" content="There is not enought players participated. Required : {0}, Registered : {1}."/>
+	<message id="27" content="{0} Event: You will be moved to arena after 20 seconds!"/>
+	<message id="28" content="Do you want to register on event {0}?"/>
+	<message id="29" content="TvT Event: there is no winners at this time."/>
+	<message id="30" content="TvT Event: event ended in draw."/>
+	<message id="31" content="TvT Event: Team {0} won event. Killed {1} players."/>
+	<message id="32" content="TvT Event: Your team wins TvT event. Check your inventory for reward. Thank you for participating."/>
+	<message id="33" content="TvT Event: Top player of the event is {0} with {1} kills!"/>
+	<message id="34" content="You dead. Ressurection will be sent to you after {0} seconds."/>
+	<message id="35" content="BW Event: event ends in draw (no bases destroyed)"/>
+	<message id="36" content="BW Event: Your team winned event. Check your inventory for reward."/>
+	<message id="37" content="BW Event: Team {0} winned event. Destroyed {1} bases."/>
+	<message id="38" content="You are dead. You will be ressurected in {0} seconds."/>
+	<message id="39" content="You destroyed enemies base!"/>
+	<message id="40" content="One of your bases has been destroyed."/>
+	<message id="41" content="CTF Event: {0} logged out with flag taken. Flag has been returned to base."/>
+	<message id="42" content="CTF Event: there is no winner (no points)."/>
+	<message id="43" content="CTF Event: there is no winner (draw)."/>
+	<message id="44" content="CTF Event: Team {0} winned. {1} flags occupied."/>
+	<message id="45" content="CTF Event: Your team winned event. Please check your inventory for reward. Thank you for participating."/>
+	<message id="46" content="CTF Event: Top player of the event is {0} with {1} captured flags!"/>
+	<message id="47" content="Team {0} flag returned to base."/>
+	<message id="48" content="Your team flag returned to base!"/>
+	<message id="49" content="You can't hide with flag."/>
+	<message id="50" content="Team {0} flag is captured!"/>
+	<message id="51" content="Your team flag is captured."/>
+	<message id="52" content="Team {0} captured team {1} flag and earned 1 point."/>
+	<message id="53" content="Your team flag returned to base!"/>
+	<message id="54" content="Team {0} flag returned to base."/>
+	<message id="55" content="You dead. Ressurection will be sent to you after {0} seconds."/>
+	<message id="56" content="You captured enemy flag. Bring it to your base."/>
+	<message id="57" content="DM Event: {0} winned event with {1} kills."/>
+	<message id="58" content="You win the event. Please check your inventory for reward. Thanks for participation."/>
+	<message id="59" content="DM Event: Event ended in draw."/>
+	<message id="60" content="DM Event: You lost event. Teleportation to town is initialized."/>
+	<message id="61" content="{0} Event: You will be moved to arena after 20 seconds!"/>
+	<message id="62" content="{0} Event: Registration time ends after {1} minutes."/>
+	<message id="63" content="{0} Event: Has been aborted!"/>
+</list>

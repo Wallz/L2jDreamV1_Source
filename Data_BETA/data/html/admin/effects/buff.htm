@@ -1,0 +1,38 @@
+<html>
+<title>
+Buff Menu
+</title>
+<body>
+<center>
+<table width=240 bgcolor="12334">
+	<tr>
+		<td><button value="Main" action="bypass -h admin_admin" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Game" action="bypass -h admin_admin2" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Effects" action="bypass -h admin_admin3" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="GM" action="bypass -h admin_admin4" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<br1>
+<font color="333333" align="center">_______________________________________</font>
+<br>
+<table width=210>
+	<tr>
+		<td><font color="LEVEL">Buffs:</font></td>
+		<td><edit var="menu_command" width=140 height=15></td>
+	</tr>
+</table>
+<br>
+<table width=240>
+	<tr>
+		<td><button value="Get Buff" action="bypass -h admin_getbuffs" width=70 height=21 back="L2UI.DefaultButton_click" fore="L2UI.DefaultButton"></td>
+		<td><button value="Stop Buff" action="bypass -h admin_stopbuff $menu_command" width=70 height=21 back="L2UI.DefaultButton_click" fore="L2UI.DefaultButton"></td>
+		<td><button value="Area Cancel" action="bypass -h admin_areacancel $menu_command" width=70 height=21 back="L2UI.DefaultButton_click" fore="L2UI.DefaultButton"></td>
+	</tr>
+</table>
+<br>
+<font color="333333" align="center">_______________________________________</font>
+<br1>
+<font color="3399ff">Server Software created by L2Dream.</font>
+</center>
+</body>
+</html>

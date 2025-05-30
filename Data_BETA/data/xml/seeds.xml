@@ -1,0 +1,518 @@
+<?xml version="1.0"?>
+<list>
+	<!-- This file contains all special info about seeds.
+	Format:
+	seed_id seed_level crop_id mature_id reward1_id reward2_id manor_id is_alternative limit_for_seeds limit_for_crops -->
+	<!-- Seed: Dark Coda -->
+	<seed seed_id="5016" seed_level="10" crop_id="5073" mature_id="5103" reward1_id="1864" reward2_id="1878" manor_id="1" is_alternative="0" limit_for_seeds="8100" limit_for_crops="9000"/>
+	<!-- Seed: Red Coda -->
+	<seed seed_id="5017" seed_level="13" crop_id="5068" mature_id="5098" reward1_id="1865" reward2_id="1879" manor_id="1" is_alternative="0" limit_for_seeds="8100" limit_for_crops="9000"/>
+	<!-- Seed: Chilly Coda -->
+	<seed seed_id="5018" seed_level="16" crop_id="5065" mature_id="5095" reward1_id="1866" reward2_id="1874" manor_id="1" is_alternative="0" limit_for_seeds="8100" limit_for_crops="9000"/>
+	<!-- Seed: Blue Coda -->
+	<seed seed_id="5019" seed_level="19" crop_id="5067" mature_id="5097" reward1_id="1867" reward2_id="1894" manor_id="1" is_alternative="0" limit_for_seeds="4050" limit_for_crops="4500"/>
+	<!-- Seed: Golden Coda -->
+	<seed seed_id="5020" seed_level="22" crop_id="5069" mature_id="5099" reward1_id="1868" reward2_id="1876" manor_id="1" is_alternative="0" limit_for_seeds="2025" limit_for_crops="2250"/>
+	<!-- Seed: Lute Coda -->
+	<seed seed_id="5021" seed_level="25" crop_id="5071" mature_id="5101" reward1_id="1869" reward2_id="1895" manor_id="1" is_alternative="0" limit_for_seeds="1350" limit_for_crops="1500"/>
+	<!-- Seed: Desert Coda -->
+	<seed seed_id="5022" seed_level="28" crop_id="5070" mature_id="5100" reward1_id="1870" reward2_id="1877" manor_id="1" is_alternative="0" limit_for_seeds="2025" limit_for_crops="2250"/>
+	<!-- Seed: Blue Cobol -->
+	<seed seed_id="5023" seed_level="37" crop_id="5077" mature_id="5107" reward1_id="1873" reward2_id="4044" manor_id="1" is_alternative="0" limit_for_seeds="810" limit_for_crops="900"/>
+	<!-- Seed: Blue Coda -->
+	<seed seed_id="5024" seed_level="19" crop_id="5067" mature_id="5097" reward1_id="1867" reward2_id="1894" manor_id="2" is_alternative="0" limit_for_seeds="4194" limit_for_crops="4660"/>
+	<!-- Seed: Golden Coda -->
+	<seed seed_id="5025" seed_level="22" crop_id="5069" mature_id="5099" reward1_id="1868" reward2_id="1876" manor_id="2" is_alternative="0" limit_for_seeds="2097" limit_for_crops="2330"/>
+	<!-- Seed: Lute Coda -->
+	<seed seed_id="5026" seed_level="25" crop_id="5071" mature_id="5101" reward1_id="1869" reward2_id="1895" manor_id="2" is_alternative="0" limit_for_seeds="1398" limit_for_crops="1553"/>
+	<!-- Seed: Desert Coda -->
+	<seed seed_id="5027" seed_level="28" crop_id="5070" mature_id="5100" reward1_id="1870" reward2_id="1877" manor_id="2" is_alternative="0" limit_for_seeds="2097" limit_for_crops="2330"/>
+	<!-- Seed: Red Cobol -->
+	<seed seed_id="5028" seed_level="31" crop_id="5078" mature_id="5108" reward1_id="1871" reward2_id="4042" manor_id="2" is_alternative="0" limit_for_seeds="2097" limit_for_crops="2330"/>
+	<!-- Seed: Chilly Cobol -->
+	<seed seed_id="5029" seed_level="34" crop_id="5075" mature_id="5105" reward1_id="1872" reward2_id="1880" manor_id="2" is_alternative="0" limit_for_seeds="1677" limit_for_crops="1864"/>
+	<!-- Seed: Thorn Cobol -->
+	<seed seed_id="5030" seed_level="40" crop_id="5082" mature_id="5112" reward1_id="1864" reward2_id="5549" manor_id="2" is_alternative="0" limit_for_seeds="838" limit_for_crops="932"/>
+	<!-- Seed: Golden Cobol -->
+	<seed seed_id="5031" seed_level="43" crop_id="5079" mature_id="5109" reward1_id="1865" reward2_id="4039" manor_id="2" is_alternative="0" limit_for_seeds="838" limit_for_crops="932"/>
+	<!-- Seed: Great Cobol -->
+	<seed seed_id="5032" seed_level="46" crop_id="5084" mature_id="5114" reward1_id="1866" reward2_id="1885" manor_id="2" is_alternative="0" limit_for_seeds="838" limit_for_crops="932"/>
+	<!-- Seed: Red Cobol -->
+	<seed seed_id="5033" seed_level="31" crop_id="5078" mature_id="5108" reward1_id="1871" reward2_id="4042" manor_id="3" is_alternative="0" limit_for_seeds="2250" limit_for_crops="2500"/>
+	<!-- Seed: Chilly Cobol -->
+	<seed seed_id="5034" seed_level="34" crop_id="5075" mature_id="5105" reward1_id="1872" reward2_id="1880" manor_id="3" is_alternative="0" limit_for_seeds="1800" limit_for_crops="2000"/>
+	<!-- Seed: Blue Cobol -->
+	<seed seed_id="5035" seed_level="37" crop_id="5077" mature_id="5107" reward1_id="1873" reward2_id="4044" manor_id="3" is_alternative="0" limit_for_seeds="900" limit_for_crops="1000"/>
+	<!-- Seed: Thorn Cobol -->
+	<seed seed_id="5036" seed_level="40" crop_id="5082" mature_id="5112" reward1_id="1864" reward2_id="5549" manor_id="3" is_alternative="0" limit_for_seeds="900" limit_for_crops="1000"/>
+	<!-- Seed: Golden Cobol -->
+	<seed seed_id="5037" seed_level="43" crop_id="5079" mature_id="5109" reward1_id="1865" reward2_id="4039" manor_id="3" is_alternative="0" limit_for_seeds="900" limit_for_crops="1000"/>
+	<!-- Seed: Great Cobol -->
+	<seed seed_id="5038" seed_level="46" crop_id="5084" mature_id="5114" reward1_id="1866" reward2_id="1885" manor_id="3" is_alternative="0" limit_for_seeds="900" limit_for_crops="1000"/>
+	<!-- Seed: Red Codran -->
+	<seed seed_id="5039" seed_level="49" crop_id="5088" mature_id="5118" reward1_id="1867" reward2_id="4043" manor_id="3" is_alternative="0" limit_for_seeds="1125" limit_for_crops="1250"/>
+	<!-- Seed: Twin Codran -->
+	<seed seed_id="5040" seed_level="58" crop_id="5092" mature_id="5122" reward1_id="1871" reward2_id="4040" manor_id="3" is_alternative="0" limit_for_seeds="900" limit_for_crops="1000"/>
+	<!-- Seed: Desert Codran -->
+	<seed seed_id="5041" seed_level="64" crop_id="5090" mature_id="5120" reward1_id="1873" reward2_id="5550" manor_id="3" is_alternative="0" limit_for_seeds="450" limit_for_crops="500"/>
+	<!-- Seed: Dark Coda -->
+	<seed seed_id="5042" seed_level="10" crop_id="5073" mature_id="5103" reward1_id="1864" reward2_id="1878" manor_id="4" is_alternative="0" limit_for_seeds="7200" limit_for_crops="8000"/>
+	<!-- Seed: Red Coda -->
+	<seed seed_id="5043" seed_level="13" crop_id="5068" mature_id="5098" reward1_id="1865" reward2_id="1879" manor_id="4" is_alternative="0" limit_for_seeds="7200" limit_for_crops="8000"/>
+	<!-- Seed: Blue Coda -->
+	<seed seed_id="5044" seed_level="19" crop_id="5067" mature_id="5097" reward1_id="1867" reward2_id="1894" manor_id="4" is_alternative="0" limit_for_seeds="3600" limit_for_crops="4000"/>
+	<!-- Seed: Red Cobol -->
+	<seed seed_id="5045" seed_level="31" crop_id="5078" mature_id="5108" reward1_id="1871" reward2_id="4042" manor_id="4" is_alternative="0" limit_for_seeds="1800" limit_for_crops="2000"/>
+	<!-- Seed: Chilly Cobol -->
+	<seed seed_id="5046" seed_level="34" crop_id="5075" mature_id="5105" reward1_id="1872" reward2_id="1880" manor_id="4" is_alternative="0" limit_for_seeds="1440" limit_for_crops="1600"/>
+	<!-- Seed: Blue Cobol -->
+	<seed seed_id="5047" seed_level="37" crop_id="5077" mature_id="5107" reward1_id="1873" reward2_id="4044" manor_id="4" is_alternative="0" limit_for_seeds="720" limit_for_crops="800"/>
+	<!-- Seed: Thorn Cobol -->
+	<seed seed_id="5048" seed_level="40" crop_id="5082" mature_id="5112" reward1_id="1864" reward2_id="5549" manor_id="4" is_alternative="0" limit_for_seeds="720" limit_for_crops="800"/>
+	<!-- Seed: Sea Codran -->
+	<seed seed_id="5049" seed_level="50" crop_id="5091" mature_id="5121" reward1_id="1868" reward2_id="1884" manor_id="4" is_alternative="0" limit_for_seeds="720" limit_for_crops="800"/>
+	<!-- Seed: Chilly Codran -->
+	<seed seed_id="5050" seed_level="52" crop_id="5085" mature_id="5115" reward1_id="1869" reward2_id="4041" manor_id="4" is_alternative="0" limit_for_seeds="900" limit_for_crops="1000"/>
+	<!-- Seed: Blue Codran -->
+	<seed seed_id="5051" seed_level="55" crop_id="5087" mature_id="5117" reward1_id="1870" reward2_id="1882" manor_id="4" is_alternative="0" limit_for_seeds="720" limit_for_crops="800"/>
+	<!-- Seed: Twin Codran -->
+	<seed seed_id="5052" seed_level="58" crop_id="5092" mature_id="5122" reward1_id="1871" reward2_id="4040" manor_id="4" is_alternative="0" limit_for_seeds="720" limit_for_crops="800"/>
+	<!-- Seed: Thorn Cobol -->
+	<seed seed_id="5053" seed_level="40" crop_id="5082" mature_id="5112" reward1_id="1864" reward2_id="5549" manor_id="5" is_alternative="0" limit_for_seeds="1344" limit_for_crops="1494"/>
+	<!-- Seed: Golden Cobol -->
+	<seed seed_id="5054" seed_level="43" crop_id="5079" mature_id="5109" reward1_id="1865" reward2_id="4039" manor_id="5" is_alternative="0" limit_for_seeds="1344" limit_for_crops="1494"/>
+	<!-- Seed: Great Cobol -->
+	<seed seed_id="5055" seed_level="46" crop_id="5084" mature_id="5114" reward1_id="1866" reward2_id="1885" manor_id="5" is_alternative="0" limit_for_seeds="1344" limit_for_crops="1494"/>
+	<!-- Seed: Red Codran -->
+	<seed seed_id="5056" seed_level="49" crop_id="5088" mature_id="5118" reward1_id="1867" reward2_id="4043" manor_id="5" is_alternative="0" limit_for_seeds="1680" limit_for_crops="1867"/>
+	<!-- Seed: Chilly Codran -->
+	<seed seed_id="5057" seed_level="52" crop_id="5085" mature_id="5115" reward1_id="1869" reward2_id="4041" manor_id="5" is_alternative="0" limit_for_seeds="1680" limit_for_crops="1867"/>
+	<!-- Seed: Blue Codran -->
+	<seed seed_id="5058" seed_level="55" crop_id="5087" mature_id="5117" reward1_id="1870" reward2_id="1882" manor_id="5" is_alternative="0" limit_for_seeds="1344" limit_for_crops="1494"/>
+	<!-- Seed: Twin Codran -->
+	<seed seed_id="5059" seed_level="58" crop_id="5092" mature_id="5122" reward1_id="1871" reward2_id="4040" manor_id="5" is_alternative="0" limit_for_seeds="1344" limit_for_crops="1494"/>
+	<!-- Seed: Great Codran -->
+	<seed seed_id="5060" seed_level="61" crop_id="5094" mature_id="5124" reward1_id="1872" reward2_id="1881" manor_id="5" is_alternative="0" limit_for_seeds="896" limit_for_crops="996"/>
+	<!-- Seed: Desert Codran -->
+	<seed seed_id="5061" seed_level="64" crop_id="5090" mature_id="5120" reward1_id="1873" reward2_id="5550" manor_id="5" is_alternative="0" limit_for_seeds="672" limit_for_crops="747"/>
+	<!-- Seed: Chilly Cobol -->
+	<seed seed_id="5221" seed_level="34" crop_id="5075" mature_id="5105" reward1_id="1872" reward2_id="1880" manor_id="6" is_alternative="0" limit_for_seeds="2592" limit_for_crops="2880"/>
+	<!-- Seed: Blue Cobol -->
+	<seed seed_id="5222" seed_level="37" crop_id="5077" mature_id="5107" reward1_id="1873" reward2_id="4044" manor_id="6" is_alternative="0" limit_for_seeds="1296" limit_for_crops="1440"/>
+	<!-- Seed: Thorn Cobol -->
+	<seed seed_id="5223" seed_level="40" crop_id="5082" mature_id="5112" reward1_id="1864" reward2_id="5549" manor_id="6" is_alternative="0" limit_for_seeds="1296" limit_for_crops="1440"/>
+	<!-- Seed: Golden Cobol -->
+	<seed seed_id="5224" seed_level="43" crop_id="5079" mature_id="5109" reward1_id="1865" reward2_id="4039" manor_id="6" is_alternative="0" limit_for_seeds="1296" limit_for_crops="1440"/>
+	<!-- Seed: Great Cobol -->
+	<seed seed_id="5225" seed_level="46" crop_id="5084" mature_id="5114" reward1_id="1866" reward2_id="1885" manor_id="6" is_alternative="0" limit_for_seeds="1296" limit_for_crops="1440"/>
+	<!-- Seed: Red Codran -->
+	<seed seed_id="5226" seed_level="49" crop_id="5088" mature_id="5118" reward1_id="1867" reward2_id="4043" manor_id="6" is_alternative="0" limit_for_seeds="1620" limit_for_crops="1800"/>
+	<!-- Seed: Sea Codran -->
+	<seed seed_id="5227" seed_level="50" crop_id="5091" mature_id="5121" reward1_id="1868" reward2_id="1884" manor_id="6" is_alternative="0" limit_for_seeds="1296" limit_for_crops="1440"/>
+	<!-- Alternative Dark Coda Seed -->
+	<seed seed_id="5650" seed_level="10" crop_id="5818" mature_id="5838" reward1_id="1864" reward2_id="1878" manor_id="1" is_alternative="1" limit_for_seeds="22500" limit_for_crops="2250"/>
+	<!-- Alternative Red Coda Seed -->
+	<seed seed_id="5651" seed_level="13" crop_id="5819" mature_id="5839" reward1_id="1865" reward2_id="1879" manor_id="1" is_alternative="1" limit_for_seeds="22500" limit_for_crops="2250"/>
+	<!-- Alternative Chilly Coda Seed -->
+	<seed seed_id="5652" seed_level="16" crop_id="5820" mature_id="5840" reward1_id="1866" reward2_id="1874" manor_id="1" is_alternative="1" limit_for_seeds="22500" limit_for_crops="2250"/>
+	<!-- Alternative Blue Coda Seed -->
+	<seed seed_id="5653" seed_level="19" crop_id="5821" mature_id="5841" reward1_id="1867" reward2_id="1894" manor_id="1" is_alternative="1" limit_for_seeds="11250" limit_for_crops="1125"/>
+	<!-- Alternative Golden Coda Seed -->
+	<seed seed_id="5654" seed_level="22" crop_id="5822" mature_id="5842" reward1_id="1868" reward2_id="1876" manor_id="1" is_alternative="1" limit_for_seeds="5625" limit_for_crops="562"/>
+	<!-- Alternative Lute Coda Seed -->
+	<seed seed_id="5655" seed_level="25" crop_id="5823" mature_id="5843" reward1_id="1869" reward2_id="1895" manor_id="1" is_alternative="1" limit_for_seeds="3750" limit_for_crops="375"/>
+	<!-- Alternative Desert Coda Seed -->
+	<seed seed_id="5656" seed_level="28" crop_id="5824" mature_id="5844" reward1_id="1870" reward2_id="1877" manor_id="1" is_alternative="1" limit_for_seeds="5625" limit_for_crops="562"/>
+	<!-- Alternative Blue Cobol Seed -->
+	<seed seed_id="5657" seed_level="37" crop_id="5827" mature_id="5847" reward1_id="1873" reward2_id="4044" manor_id="1" is_alternative="1" limit_for_seeds="2250" limit_for_crops="225"/>
+	<!-- Alternative Blue Coda Seed -->
+	<seed seed_id="5658" seed_level="19" crop_id="5821" mature_id="5841" reward1_id="1867" reward2_id="1894" manor_id="2" is_alternative="1" limit_for_seeds="11650" limit_for_crops="1165"/>
+	<!-- Alternative Golden Coda Seed -->
+	<seed seed_id="5659" seed_level="22" crop_id="5822" mature_id="5842" reward1_id="1868" reward2_id="1876" manor_id="2" is_alternative="1" limit_for_seeds="5825" limit_for_crops="582"/>
+	<!-- Alternative Lute Coda Seed -->
+	<seed seed_id="5660" seed_level="25" crop_id="5823" mature_id="5843" reward1_id="1869" reward2_id="1895" manor_id="2" is_alternative="1" limit_for_seeds="3883" limit_for_crops="388"/>
+	<!-- Alternative Desert Coda Seed -->
+	<seed seed_id="5661" seed_level="28" crop_id="5824" mature_id="5844" reward1_id="1870" reward2_id="1877" manor_id="2" is_alternative="1" limit_for_seeds="5825" limit_for_crops="582"/>
+	<!-- Alternative Red Cobol Seed -->
+	<seed seed_id="5662" seed_level="31" crop_id="5825" mature_id="5845" reward1_id="1871" reward2_id="4042" manor_id="2" is_alternative="1" limit_for_seeds="5825" limit_for_crops="582"/>
+	<!-- Alternative Chilly Cobol Seed -->
+	<seed seed_id="5663" seed_level="34" crop_id="5826" mature_id="5846" reward1_id="1872" reward2_id="1880" manor_id="2" is_alternative="1" limit_for_seeds="4660" limit_for_crops="466"/>
+	<!-- Alternative Thorn Cobol Seed -->
+	<seed seed_id="5664" seed_level="40" crop_id="5828" mature_id="5848" reward1_id="1864" reward2_id="5549" manor_id="2" is_alternative="1" limit_for_seeds="2330" limit_for_crops="233"/>
+	<!-- Alternative Golden Cobol Seed -->
+	<seed seed_id="5665" seed_level="43" crop_id="5829" mature_id="5849" reward1_id="1865" reward2_id="4039" manor_id="2" is_alternative="1" limit_for_seeds="2330" limit_for_crops="233"/>
+	<!-- Alternative Great Cobol Seed -->
+	<seed seed_id="5666" seed_level="46" crop_id="5830" mature_id="5850" reward1_id="1866" reward2_id="1885" manor_id="2" is_alternative="1" limit_for_seeds="2912" limit_for_crops="291"/>
+	<!-- Alternative Red Cobol Seed -->
+	<seed seed_id="5667" seed_level="31" crop_id="5825" mature_id="5845" reward1_id="1871" reward2_id="4042" manor_id="3" is_alternative="1" limit_for_seeds="6250" limit_for_crops="625"/>
+	<!-- Alternative Chilly Cobol Seed -->
+	<seed seed_id="5668" seed_level="34" crop_id="5826" mature_id="5846" reward1_id="1872" reward2_id="1880" manor_id="3" is_alternative="1" limit_for_seeds="5000" limit_for_crops="500"/>
+	<!-- Alternative Blue Cobol Seed -->
+	<seed seed_id="5669" seed_level="37" crop_id="5827" mature_id="5847" reward1_id="1873" reward2_id="4044" manor_id="3" is_alternative="1" limit_for_seeds="2500" limit_for_crops="250"/>
+	<!-- Alternative Thorn Cobol Seed -->
+	<seed seed_id="5670" seed_level="40" crop_id="5828" mature_id="5848" reward1_id="1864" reward2_id="5549" manor_id="3" is_alternative="1" limit_for_seeds="2500" limit_for_crops="250"/>
+	<!-- Alternative Golden Cobol Seed -->
+	<seed seed_id="5671" seed_level="43" crop_id="5829" mature_id="5849" reward1_id="1865" reward2_id="4039" manor_id="3" is_alternative="1" limit_for_seeds="2500" limit_for_crops="250"/>
+	<!-- Alternative Great Cobol Seed -->
+	<seed seed_id="5672" seed_level="46" crop_id="5830" mature_id="5850" reward1_id="1866" reward2_id="1885" manor_id="3" is_alternative="1" limit_for_seeds="3125" limit_for_crops="312"/>
+	<!-- Alternative Red Codran Seed -->
+	<seed seed_id="5673" seed_level="49" crop_id="5831" mature_id="5851" reward1_id="1867" reward2_id="4043" manor_id="3" is_alternative="1" limit_for_seeds="3125" limit_for_crops="312"/>
+	<!-- Alternative Twin Codran Seed -->
+	<seed seed_id="5674" seed_level="58" crop_id="5835" mature_id="5855" reward1_id="1871" reward2_id="4040" manor_id="3" is_alternative="1" limit_for_seeds="2500" limit_for_crops="250"/>
+	<!-- Alternative Desert Codran Seed -->
+	<seed seed_id="5675" seed_level="64" crop_id="5837" mature_id="5857" reward1_id="1873" reward2_id="5550" manor_id="3" is_alternative="1" limit_for_seeds="1250" limit_for_crops="125"/>
+	<!-- Alternative Dark Coda Seed -->
+	<seed seed_id="5676" seed_level="10" crop_id="5818" mature_id="5838" reward1_id="1864" reward2_id="1878" manor_id="4" is_alternative="1" limit_for_seeds="20000" limit_for_crops="2000"/>
+	<!-- Alternative Red Coda Seed -->
+	<seed seed_id="5677" seed_level="13" crop_id="5819" mature_id="5839" reward1_id="1865" reward2_id="1879" manor_id="4" is_alternative="1" limit_for_seeds="20000" limit_for_crops="2000"/>
+	<!-- Alternative Blue Coda Seed -->
+	<seed seed_id="5678" seed_level="19" crop_id="5821" mature_id="5841" reward1_id="1867" reward2_id="1894" manor_id="4" is_alternative="1" limit_for_seeds="10000" limit_for_crops="1000"/>
+	<!-- Alternative Red Cobol Seed -->
+	<seed seed_id="5679" seed_level="31" crop_id="5825" mature_id="5845" reward1_id="1871" reward2_id="4042" manor_id="4" is_alternative="1" limit_for_seeds="5000" limit_for_crops="500"/>
+	<!-- Alternative Chilly Cobol Seed -->
+	<seed seed_id="5680" seed_level="34" crop_id="5826" mature_id="5846" reward1_id="1872" reward2_id="1880" manor_id="4" is_alternative="1" limit_for_seeds="4000" limit_for_crops="400"/>
+	<!-- Alternative Blue Cobol Seed -->
+	<seed seed_id="5681" seed_level="37" crop_id="5827" mature_id="5847" reward1_id="1873" reward2_id="4044" manor_id="4" is_alternative="1" limit_for_seeds="2000" limit_for_crops="200"/>
+	<!-- Alternative Thorn Cobol Seed -->
+	<seed seed_id="5682" seed_level="40" crop_id="5828" mature_id="5848" reward1_id="1864" reward2_id="5549" manor_id="4" is_alternative="1" limit_for_seeds="2000" limit_for_crops="200"/>
+	<!-- Alternative Sea Codran Seed -->
+	<seed seed_id="5683" seed_level="50" crop_id="5832" mature_id="5852" reward1_id="1868" reward2_id="1884" manor_id="4" is_alternative="1" limit_for_seeds="2000" limit_for_crops="200"/>
+	<!-- Alternative Chilly Codran Seed -->
+	<seed seed_id="5684" seed_level="52" crop_id="5833" mature_id="5853" reward1_id="1869" reward2_id="4041" manor_id="4" is_alternative="1" limit_for_seeds="2500" limit_for_crops="250"/>
+	<!-- Alternative Blue Codran Seed -->
+	<seed seed_id="5685" seed_level="55" crop_id="5834" mature_id="5854" reward1_id="1870" reward2_id="1882" manor_id="4" is_alternative="1" limit_for_seeds="2000" limit_for_crops="200"/>
+	<!-- Alternative Twin Codran Seed -->
+	<seed seed_id="5686" seed_level="58" crop_id="5835" mature_id="5855" reward1_id="1871" reward2_id="4040" manor_id="4" is_alternative="1" limit_for_seeds="2000" limit_for_crops="200"/>
+	<!-- Alternative Thorn Cobol Seed -->
+	<seed seed_id="5687" seed_level="40" crop_id="5828" mature_id="5848" reward1_id="1864" reward2_id="5549" manor_id="5" is_alternative="1" limit_for_seeds="3735" limit_for_crops="373"/>
+	<!-- Alternative Golden Cobol Seed -->
+	<seed seed_id="5688" seed_level="43" crop_id="5829" mature_id="5849" reward1_id="1865" reward2_id="4039" manor_id="5" is_alternative="1" limit_for_seeds="3735" limit_for_crops="373"/>
+	<!-- Alternative Great Cobol Seed -->
+	<seed seed_id="5689" seed_level="46" crop_id="5830" mature_id="5850" reward1_id="1866" reward2_id="1885" manor_id="5" is_alternative="1" limit_for_seeds="4668" limit_for_crops="466"/>
+	<!-- Alternative Red Codran Seed -->
+	<seed seed_id="5690" seed_level="49" crop_id="5831" mature_id="5851" reward1_id="1867" reward2_id="4043" manor_id="5" is_alternative="1" limit_for_seeds="4668" limit_for_crops="466"/>
+	<!-- Alternative Chilly Codran Seed -->
+	<seed seed_id="5691" seed_level="52" crop_id="5833" mature_id="5853" reward1_id="1869" reward2_id="4041" manor_id="5" is_alternative="1" limit_for_seeds="4668" limit_for_crops="466"/>
+	<!-- Alternative Blue Codran Seed -->
+	<seed seed_id="5692" seed_level="55" crop_id="5834" mature_id="5854" reward1_id="1870" reward2_id="1882" manor_id="5" is_alternative="1" limit_for_seeds="3735" limit_for_crops="373"/>
+	<!-- Alternative Twin Codran Seed -->
+	<seed seed_id="5693" seed_level="58" crop_id="5835" mature_id="5855" reward1_id="1871" reward2_id="4040" manor_id="5" is_alternative="1" limit_for_seeds="3735" limit_for_crops="373"/>
+	<!-- Alternative Great Codran Seed -->
+	<seed seed_id="5694" seed_level="61" crop_id="5836" mature_id="5856" reward1_id="1872" reward2_id="1881" manor_id="5" is_alternative="1" limit_for_seeds="2490" limit_for_crops="249"/>
+	<!-- Alternative Desert Codran Seed -->
+	<seed seed_id="5695" seed_level="64" crop_id="5837" mature_id="5857" reward1_id="1873" reward2_id="5550" manor_id="5" is_alternative="1" limit_for_seeds="1867" limit_for_crops="186"/>
+	<!-- Alternative Chilly Cobol Seed -->
+	<seed seed_id="5696" seed_level="34" crop_id="5826" mature_id="5846" reward1_id="1872" reward2_id="1880" manor_id="6" is_alternative="1" limit_for_seeds="7200" limit_for_crops="720"/>
+	<!-- Alternative Blue Cobol Seed -->
+	<seed seed_id="5697" seed_level="37" crop_id="5827" mature_id="5847" reward1_id="1873" reward2_id="4044" manor_id="6" is_alternative="1" limit_for_seeds="3600" limit_for_crops="360"/>
+	<!-- Alternative Thorn Cobol Seed -->
+	<seed seed_id="5698" seed_level="40" crop_id="5828" mature_id="5848" reward1_id="1864" reward2_id="5549" manor_id="6" is_alternative="1" limit_for_seeds="3600" limit_for_crops="360"/>
+	<!-- Alternative Golden Cobol Seed -->
+	<seed seed_id="5699" seed_level="43" crop_id="5829" mature_id="5849" reward1_id="1865" reward2_id="4039" manor_id="6" is_alternative="1" limit_for_seeds="3600" limit_for_crops="360"/>
+	<!-- Alternative Great Cobol Seed -->
+	<seed seed_id="5700" seed_level="46" crop_id="5830" mature_id="5850" reward1_id="1866" reward2_id="1885" manor_id="6" is_alternative="1" limit_for_seeds="4500" limit_for_crops="450"/>
+	<!-- Alternative Red Codran Seed -->
+	<seed seed_id="5701" seed_level="49" crop_id="5831" mature_id="5851" reward1_id="1867" reward2_id="4043" manor_id="6" is_alternative="1" limit_for_seeds="4500" limit_for_crops="450"/>
+	<!-- Alternative Sea Codran Seed -->
+	<seed seed_id="5702" seed_level="50" crop_id="5832" mature_id="5852" reward1_id="1868" reward2_id="1884" manor_id="6" is_alternative="1" limit_for_seeds="3600" limit_for_crops="360"/>
+	<!-- Seed: Alternative Great Coba -->
+	<seed seed_id="6727" seed_level="85" crop_id="6554" mature_id="6568" reward1_id="5549" reward2_id="5550" manor_id="7" is_alternative="1" limit_for_seeds="208" limit_for_crops="90"/>
+	<!-- Seed: Alternative Sea Coba -->
+	<seed seed_id="6728" seed_level="79" crop_id="6552" mature_id="6566" reward1_id="4044" reward2_id="4042" manor_id="4" is_alternative="1" limit_for_seeds="111" limit_for_crops="44"/>
+	<!-- Seed: Alternative Sea Coba -->
+	<seed seed_id="6729" seed_level="79" crop_id="6552" mature_id="6566" reward1_id="4044" reward2_id="4042" manor_id="5" is_alternative="1" limit_for_seeds="207" limit_for_crops="83"/>
+	<!-- Seed: Alternative Sea Coba -->
+	<seed seed_id="6730" seed_level="79" crop_id="6552" mature_id="6566" reward1_id="4044" reward2_id="4042" manor_id="7" is_alternative="1" limit_for_seeds="277" limit_for_crops="111"/>
+	<!-- Seed: Alternative Red Coba -->
+	<seed seed_id="6731" seed_level="70" crop_id="6549" mature_id="6563" reward1_id="1888" reward2_id="4040" manor_id="3" is_alternative="1" limit_for_seeds="250" limit_for_crops="83"/>
+	<!-- Seed: Alternative Red Coba -->
+	<seed seed_id="6732" seed_level="70" crop_id="6549" mature_id="6563" reward1_id="1888" reward2_id="4040" manor_id="5" is_alternative="1" limit_for_seeds="373" limit_for_crops="124"/>
+	<!-- Seed: Alternative Red Coba -->
+	<seed seed_id="6733" seed_level="70" crop_id="6549" mature_id="6563" reward1_id="1888" reward2_id="4040" manor_id="6" is_alternative="1" limit_for_seeds="360" limit_for_crops="120"/>
+	<!-- Seed: Alternative Red Coba -->
+	<seed seed_id="6734" seed_level="70" crop_id="6549" mature_id="6563" reward1_id="1888" reward2_id="4040" manor_id="8" is_alternative="1" limit_for_seeds="500" limit_for_crops="166"/>
+	<!-- Seed: Alternative Red Coba -->
+	<seed seed_id="6735" seed_level="70" crop_id="6549" mature_id="6563" reward1_id="1888" reward2_id="4040" manor_id="8" is_alternative="1" limit_for_seeds="500" limit_for_crops="166"/>
+	<!-- Seed: Alternative Desert Coba -->
+	<seed seed_id="6736" seed_level="76" crop_id="6551" mature_id="6565" reward1_id="4043" reward2_id="1890" manor_id="4" is_alternative="1" limit_for_seeds="133" limit_for_crops="50"/>
+	<!-- Seed: Alternative Desert Coba -->
+	<seed seed_id="6737" seed_level="76" crop_id="6551" mature_id="6565" reward1_id="4043" reward2_id="1890" manor_id="5" is_alternative="1" limit_for_seeds="249" limit_for_crops="93"/>
+	<!-- Seed: Alternative Desert Coba -->
+	<seed seed_id="6738" seed_level="76" crop_id="6551" mature_id="6565" reward1_id="4043" reward2_id="1890" manor_id="6" is_alternative="1" limit_for_seeds="240" limit_for_crops="90"/>
+	<!-- Seed: Alternative Desert Coba -->
+	<seed seed_id="6739" seed_level="76" crop_id="6551" mature_id="6565" reward1_id="4043" reward2_id="1890" manor_id="7" is_alternative="1" limit_for_seeds="333" limit_for_crops="125"/>
+	<!-- Seed: Alternative Desert Coba -->
+	<seed seed_id="6740" seed_level="76" crop_id="6551" mature_id="6565" reward1_id="4043" reward2_id="1890" manor_id="8" is_alternative="1" limit_for_seeds="333" limit_for_crops="125"/>
+	<!-- Seed: Alternative Twin Coba -->
+	<seed seed_id="6741" seed_level="82" crop_id="6553" mature_id="6567" reward1_id="1885" reward2_id="1893" manor_id="7" is_alternative="1" limit_for_seeds="250" limit_for_crops="100"/>
+	<!-- Seed: Alternative Blue Coba -->
+	<seed seed_id="6742" seed_level="67" crop_id="6548" mature_id="6562" reward1_id="1894" reward2_id="4039" manor_id="1" is_alternative="1" limit_for_seeds="281" limit_for_crops="90"/>
+	<!-- Seed: Alternative Blue Coba -->
+	<seed seed_id="6743" seed_level="67" crop_id="6548" mature_id="6562" reward1_id="1894" reward2_id="4039" manor_id="3" is_alternative="1" limit_for_seeds="312" limit_for_crops="100"/>
+	<!-- Seed: Alternative Blue Coba -->
+	<seed seed_id="6744" seed_level="67" crop_id="6548" mature_id="6562" reward1_id="1894" reward2_id="4039" manor_id="5" is_alternative="1" limit_for_seeds="466" limit_for_crops="149"/>
+	<!-- Seed: Alternative Blue Coba -->
+	<seed seed_id="6745" seed_level="67" crop_id="6548" mature_id="6562" reward1_id="1894" reward2_id="4039" manor_id="7" is_alternative="1" limit_for_seeds="625" limit_for_crops="200"/>
+	<!-- Seed: Alternative Blue Coba -->
+	<seed seed_id="6746" seed_level="67" crop_id="6548" mature_id="6562" reward1_id="1894" reward2_id="4039" manor_id="8" is_alternative="1" limit_for_seeds="625" limit_for_crops="200"/>
+	<!-- Seed: Alternative Golden Coba -->
+	<seed seed_id="6747" seed_level="73" crop_id="6550" mature_id="6564" reward1_id="1887" reward2_id="4041" manor_id="3" is_alternative="1" limit_for_seeds="192" limit_for_crops="71"/>
+	<!-- Seed: Alternative Golden Coba -->
+	<seed seed_id="6748" seed_level="73" crop_id="6550" mature_id="6564" reward1_id="1887" reward2_id="4041" manor_id="4" is_alternative="1" limit_for_seeds="153" limit_for_crops="57"/>
+	<!-- Seed: Alternative Golden Coba -->
+	<seed seed_id="6749" seed_level="73" crop_id="6550" mature_id="6564" reward1_id="1887" reward2_id="4041" manor_id="5" is_alternative="1" limit_for_seeds="287" limit_for_crops="106"/>
+	<!-- Seed: Alternative Golden Coba -->
+	<seed seed_id="6750" seed_level="73" crop_id="6550" mature_id="6564" reward1_id="1887" reward2_id="4041" manor_id="7" is_alternative="1" limit_for_seeds="384" limit_for_crops="142"/>
+	<!-- Seed: Alternative Golden Coba -->
+	<seed seed_id="6751" seed_level="73" crop_id="6550" mature_id="6564" reward1_id="1887" reward2_id="4041" manor_id="7" is_alternative="1" limit_for_seeds="384" limit_for_crops="142"/>
+	<!-- Seed: Alternative Golden Coba -->
+	<seed seed_id="6752" seed_level="73" crop_id="6550" mature_id="6564" reward1_id="1887" reward2_id="4041" manor_id="8" is_alternative="1" limit_for_seeds="384" limit_for_crops="142"/>
+	<!-- Seed: Great Coba -->
+	<seed seed_id="6753" seed_level="85" crop_id="6547" mature_id="6561" reward1_id="5549" reward2_id="5550" manor_id="7" is_alternative="0" limit_for_seeds="75" limit_for_crops="363"/>
+	<!-- Seed: Sea Coba -->
+	<seed seed_id="6754" seed_level="79" crop_id="6545" mature_id="6559" reward1_id="4044" reward2_id="4042" manor_id="4" is_alternative="0" limit_for_seeds="40" limit_for_crops="177"/>
+	<!-- Seed: Sea Coba -->
+	<seed seed_id="6755" seed_level="79" crop_id="6545" mature_id="6559" reward1_id="4044" reward2_id="4042" manor_id="5" is_alternative="0" limit_for_seeds="74" limit_for_crops="332"/>
+	<!-- Seed: Sea Coba -->
+	<seed seed_id="6756" seed_level="79" crop_id="6545" mature_id="6559" reward1_id="4044" reward2_id="4042" manor_id="7" is_alternative="0" limit_for_seeds="100" limit_for_crops="444"/>
+	<!-- Seed: Red Coba -->
+	<seed seed_id="6757" seed_level="70" crop_id="6542" mature_id="6556" reward1_id="1888" reward2_id="4040" manor_id="3" is_alternative="0" limit_for_seeds="90" limit_for_crops="333"/>
+	<!-- Seed: Red Coba -->
+	<seed seed_id="6758" seed_level="70" crop_id="6542" mature_id="6556" reward1_id="1888" reward2_id="4040" manor_id="5" is_alternative="0" limit_for_seeds="134" limit_for_crops="498"/>
+	<!-- Seed: Red Coba -->
+	<seed seed_id="6759" seed_level="70" crop_id="6542" mature_id="6556" reward1_id="1888" reward2_id="4040" manor_id="6" is_alternative="0" limit_for_seeds="129" limit_for_crops="480"/>
+	<!-- Seed: Red Coba -->
+	<seed seed_id="6760" seed_level="70" crop_id="6542" mature_id="6556" reward1_id="1888" reward2_id="4040" manor_id="7" is_alternative="0" limit_for_seeds="180" limit_for_crops="666"/>
+	<!-- Seed: Red Coba -->
+	<seed seed_id="6761" seed_level="70" crop_id="6542" mature_id="6556" reward1_id="1888" reward2_id="4040" manor_id="8" is_alternative="0" limit_for_seeds="180" limit_for_crops="666"/>
+	<!-- Seed: Desert Coba -->
+	<seed seed_id="6762" seed_level="76" crop_id="6544" mature_id="6558" reward1_id="4043" reward2_id="1890" manor_id="4" is_alternative="0" limit_for_seeds="48" limit_for_crops="200"/>
+	<!-- Seed: Desert Coba -->
+	<seed seed_id="6763" seed_level="76" crop_id="6544" mature_id="6558" reward1_id="4043" reward2_id="1890" manor_id="5" is_alternative="0" limit_for_seeds="89" limit_for_crops="373"/>
+	<!-- Seed: Desert Coba -->
+	<seed seed_id="6764" seed_level="76" crop_id="6544" mature_id="6558" reward1_id="4043" reward2_id="1890" manor_id="6" is_alternative="0" limit_for_seeds="86" limit_for_crops="360"/>
+	<!-- Seed: Desert Coba -->
+	<seed seed_id="6765" seed_level="76" crop_id="6544" mature_id="6558" reward1_id="4043" reward2_id="1890" manor_id="7" is_alternative="0" limit_for_seeds="120" limit_for_crops="500"/>
+	<!-- Seed: Desert Coba -->
+	<seed seed_id="6766" seed_level="76" crop_id="6544" mature_id="6558" reward1_id="4043" reward2_id="1890" manor_id="8" is_alternative="0" limit_for_seeds="120" limit_for_crops="500"/>
+	<!-- Seed: Twin Coba -->
+	<seed seed_id="6767" seed_level="82" crop_id="6546" mature_id="6560" reward1_id="1885" reward2_id="1893" manor_id="7" is_alternative="0" limit_for_seeds="90" limit_for_crops="400"/>
+	<!-- Seed: Blue Coba -->
+	<seed seed_id="6768" seed_level="67" crop_id="6541" mature_id="6555" reward1_id="1894" reward2_id="4039" manor_id="1" is_alternative="0" limit_for_seeds="101" limit_for_crops="360"/>
+	<!-- Seed: Blue Coba -->
+	<seed seed_id="6769" seed_level="67" crop_id="6541" mature_id="6555" reward1_id="1894" reward2_id="4039" manor_id="3" is_alternative="0" limit_for_seeds="112" limit_for_crops="400"/>
+	<!-- Seed: Blue Coba -->
+	<seed seed_id="6770" seed_level="67" crop_id="6541" mature_id="6555" reward1_id="1894" reward2_id="4039" manor_id="5" is_alternative="0" limit_for_seeds="168" limit_for_crops="597"/>
+	<!-- Seed: Blue Coba -->
+	<seed seed_id="6771" seed_level="67" crop_id="6541" mature_id="6555" reward1_id="1894" reward2_id="4039" manor_id="7" is_alternative="0" limit_for_seeds="225" limit_for_crops="800"/>
+	<!-- Seed: Blue Coba -->
+	<seed seed_id="6772" seed_level="67" crop_id="6541" mature_id="6555" reward1_id="1894" reward2_id="4039" manor_id="8" is_alternative="0" limit_for_seeds="225" limit_for_crops="800"/>
+	<!-- Seed: Golden Coba -->
+	<seed seed_id="6773" seed_level="73" crop_id="6543" mature_id="6557" reward1_id="1887" reward2_id="4041" manor_id="3" is_alternative="0" limit_for_seeds="69" limit_for_crops="285"/>
+	<!-- Seed: Golden Coba -->
+	<seed seed_id="6774" seed_level="73" crop_id="6543" mature_id="6557" reward1_id="1887" reward2_id="4041" manor_id="4" is_alternative="0" limit_for_seeds="55" limit_for_crops="228"/>
+	<!-- Seed: Golden Coba -->
+	<seed seed_id="6775" seed_level="73" crop_id="6543" mature_id="6557" reward1_id="1887" reward2_id="4041" manor_id="5" is_alternative="0" limit_for_seeds="103" limit_for_crops="426"/>
+	<!-- Seed: Golden Coba -->
+	<seed seed_id="6776" seed_level="73" crop_id="6543" mature_id="6557" reward1_id="1887" reward2_id="4041" manor_id="6" is_alternative="0" limit_for_seeds="99" limit_for_crops="411"/>
+	<!-- Seed: Golden Coba -->
+	<seed seed_id="6777" seed_level="73" crop_id="6543" mature_id="6557" reward1_id="1887" reward2_id="4041" manor_id="7" is_alternative="0" limit_for_seeds="138" limit_for_crops="571"/>
+	<!-- Seed: Golden Coba -->
+	<seed seed_id="6778" seed_level="73" crop_id="6543" mature_id="6557" reward1_id="1887" reward2_id="4041" manor_id="8" is_alternative="0" limit_for_seeds="138" limit_for_crops="571"/>
+	<!-- Seed: Blue Cobol -->
+	<seed seed_id="7016" seed_level="37" crop_id="5077" mature_id="5107" reward1_id="1873" reward2_id="4044" manor_id="2" is_alternative="0" limit_for_seeds="838" limit_for_crops="932"/>
+	<!-- Seed: Blue Codran -->
+	<seed seed_id="7017" seed_level="55" crop_id="5087" mature_id="5117" reward1_id="1870" reward2_id="1882" manor_id="1" is_alternative="0" limit_for_seeds="810" limit_for_crops="900"/>
+	<!-- Seed: Blue Codran -->
+	<seed seed_id="7018" seed_level="55" crop_id="5087" mature_id="5117" reward1_id="1870" reward2_id="1882" manor_id="3" is_alternative="0" limit_for_seeds="900" limit_for_crops="1000"/>
+	<!-- Seed: Chilly Cobol -->
+	<seed seed_id="7019" seed_level="34" crop_id="5075" mature_id="5105" reward1_id="1872" reward2_id="1880" manor_id="1" is_alternative="0" limit_for_seeds="1620" limit_for_crops="1800"/>
+	<!-- Seed: Chilly Coda -->
+	<seed seed_id="7020" seed_level="16" crop_id="5065" mature_id="5095" reward1_id="1866" reward2_id="1874" manor_id="4" is_alternative="0" limit_for_seeds="7200" limit_for_crops="8000"/>
+	<!-- Seed: Chilly Codran -->
+	<seed seed_id="7021" seed_level="52" crop_id="5085" mature_id="5115" reward1_id="1869" reward2_id="4041" manor_id="1" is_alternative="0" limit_for_seeds="1012" limit_for_crops="1125"/>
+	<!-- Seed: Chilly Codran -->
+	<seed seed_id="7022" seed_level="52" crop_id="5085" mature_id="5115" reward1_id="1869" reward2_id="4041" manor_id="3" is_alternative="0" limit_for_seeds="1125" limit_for_crops="1250"/>
+	<!-- Seed: Desert Codran -->
+	<seed seed_id="7023" seed_level="64" crop_id="5090" mature_id="5120" reward1_id="1873" reward2_id="5550" manor_id="1" is_alternative="0" limit_for_seeds="405" limit_for_crops="450"/>
+	<!-- Seed: Desert Codran -->
+	<seed seed_id="7024" seed_level="64" crop_id="5090" mature_id="5120" reward1_id="1873" reward2_id="5550" manor_id="7" is_alternative="0" limit_for_seeds="900" limit_for_crops="1000"/>
+	<!-- Seed: Golden Cobol -->
+	<seed seed_id="7025" seed_level="43" crop_id="5079" mature_id="5109" reward1_id="1865" reward2_id="4039" manor_id="4" is_alternative="0" limit_for_seeds="720" limit_for_crops="800"/>
+	<!-- Seed: Golden Coda -->
+	<seed seed_id="7026" seed_level="22" crop_id="5069" mature_id="5099" reward1_id="1868" reward2_id="1876" manor_id="4" is_alternative="0" limit_for_seeds="1800" limit_for_crops="2000"/>
+	<!-- Seed: Great Cobol -->
+	<seed seed_id="7027" seed_level="46" crop_id="5084" mature_id="5114" reward1_id="1866" reward2_id="1885" manor_id="4" is_alternative="0" limit_for_seeds="720" limit_for_crops="800"/>
+	<!-- Seed: Great Codran -->
+	<seed seed_id="7028" seed_level="61" crop_id="5094" mature_id="5124" reward1_id="1872" reward2_id="1881" manor_id="1" is_alternative="0" limit_for_seeds="540" limit_for_crops="600"/>
+	<!-- Seed: Great Codran -->
+	<seed seed_id="7029" seed_level="61" crop_id="5094" mature_id="5124" reward1_id="1872" reward2_id="1881" manor_id="3" is_alternative="0" limit_for_seeds="600" limit_for_crops="666"/>
+	<!-- Seed: Alternative Blue Cobol -->
+	<seed seed_id="7030" seed_level="37" crop_id="5827" mature_id="5847" reward1_id="1873" reward2_id="4044" manor_id="2" is_alternative="1" limit_for_seeds="2330" limit_for_crops="233"/>
+	<!-- Seed: Alternative Blue Codran -->
+	<seed seed_id="7031" seed_level="55" crop_id="5834" mature_id="5854" reward1_id="1870" reward2_id="1882" manor_id="1" is_alternative="1" limit_for_seeds="2250" limit_for_crops="225"/>
+	<!-- Seed: Alternative Blue Codran -->
+	<seed seed_id="7032" seed_level="55" crop_id="5834" mature_id="5854" reward1_id="1870" reward2_id="1882" manor_id="3" is_alternative="1" limit_for_seeds="2500" limit_for_crops="250"/>
+	<!-- Seed: Alternative Chilly Cobol -->
+	<seed seed_id="7033" seed_level="34" crop_id="5826" mature_id="5846" reward1_id="1872" reward2_id="1880" manor_id="1" is_alternative="1" limit_for_seeds="4500" limit_for_crops="450"/>
+	<!-- Seed: Alternative Chilly Coda -->
+	<seed seed_id="7034" seed_level="16" crop_id="5820" mature_id="5840" reward1_id="1866" reward2_id="1874" manor_id="4" is_alternative="1" limit_for_seeds="20000" limit_for_crops="2000"/>
+	<!-- Seed: Alternative Chilly Codran -->
+	<seed seed_id="7035" seed_level="52" crop_id="5833" mature_id="5853" reward1_id="1869" reward2_id="4041" manor_id="1" is_alternative="1" limit_for_seeds="2812" limit_for_crops="281"/>
+	<!-- Seed: Alternative Chilly Codran -->
+	<seed seed_id="7036" seed_level="52" crop_id="5833" mature_id="5853" reward1_id="1869" reward2_id="4041" manor_id="3" is_alternative="1" limit_for_seeds="3125" limit_for_crops="312"/>
+	<!-- Seed: Alternative Desert Codran -->
+	<seed seed_id="7037" seed_level="64" crop_id="5837" mature_id="5857" reward1_id="1873" reward2_id="5550" manor_id="1" is_alternative="1" limit_for_seeds="1125" limit_for_crops="112"/>
+	<!-- Seed: Alternative Desert Codran -->
+	<seed seed_id="7038" seed_level="64" crop_id="5837" mature_id="5857" reward1_id="1873" reward2_id="5550" manor_id="7" is_alternative="1" limit_for_seeds="2500" limit_for_crops="250"/>
+	<!-- Seed: Alternative Golden Cobol -->
+	<seed seed_id="7039" seed_level="43" crop_id="5829" mature_id="5849" reward1_id="1865" reward2_id="4039" manor_id="4" is_alternative="1" limit_for_seeds="2000" limit_for_crops="200"/>
+	<!-- Seed: Alternative Golden Coda -->
+	<seed seed_id="7040" seed_level="22" crop_id="5822" mature_id="5842" reward1_id="1868" reward2_id="1876" manor_id="4" is_alternative="1" limit_for_seeds="5000" limit_for_crops="500"/>
+	<!-- Seed: Alternative Great Cobol -->
+	<seed seed_id="7041" seed_level="46" crop_id="5830" mature_id="5850" reward1_id="1866" reward2_id="1885" manor_id="4" is_alternative="1" limit_for_seeds="2500" limit_for_crops="250"/>
+	<!-- Seed: Alternative Great Codran -->
+	<seed seed_id="7042" seed_level="61" crop_id="5836" mature_id="5856" reward1_id="1872" reward2_id="1881" manor_id="1" is_alternative="1" limit_for_seeds="1500" limit_for_crops="150"/>
+	<!-- Seed: Alternative Great Codran -->
+	<seed seed_id="7043" seed_level="61" crop_id="5836" mature_id="5856" reward1_id="1872" reward2_id="1881" manor_id="3" is_alternative="1" limit_for_seeds="1666" limit_for_crops="166"/>
+	<!-- Seed: Alternative Red Cobol -->
+	<seed seed_id="7044" seed_level="31" crop_id="5825" mature_id="5845" reward1_id="1871" reward2_id="4042" manor_id="1" is_alternative="1" limit_for_seeds="5625" limit_for_crops="562"/>
+	<!-- Seed: Alternative Red Codran -->
+	<seed seed_id="7045" seed_level="49" crop_id="5831" mature_id="5851" reward1_id="1867" reward2_id="4043" manor_id="2" is_alternative="1" limit_for_seeds="2912" limit_for_crops="291"/>
+	<!-- Seed: Alternative Red Codran -->
+	<seed seed_id="7046" seed_level="49" crop_id="5831" mature_id="5851" reward1_id="1867" reward2_id="4043" manor_id="4" is_alternative="1" limit_for_seeds="2500" limit_for_crops="250"/>
+	<!-- Seed: Alternative Sea Codran -->
+	<seed seed_id="7047" seed_level="50" crop_id="5832" mature_id="5852" reward1_id="1868" reward2_id="1884" manor_id="2" is_alternative="1" limit_for_seeds="2330" limit_for_crops="233"/>
+	<!-- Seed: Alternative Sea Codran -->
+	<seed seed_id="7048" seed_level="50" crop_id="5832" mature_id="5852" reward1_id="1868" reward2_id="1884" manor_id="3" is_alternative="1" limit_for_seeds="2500" limit_for_crops="250"/>
+	<!-- Seed: Alternative Sea Codran -->
+	<seed seed_id="7049" seed_level="50" crop_id="5832" mature_id="5852" reward1_id="1868" reward2_id="1884" manor_id="5" is_alternative="1" limit_for_seeds="3735" limit_for_crops="373"/>
+	<!-- Seed: Alternative Twin Codran -->
+	<seed seed_id="7050" seed_level="58" crop_id="5835" mature_id="5855" reward1_id="1871" reward2_id="4040" manor_id="1" is_alternative="1" limit_for_seeds="2250" limit_for_crops="225"/>
+	<!-- Seed: Red Cobol -->
+	<seed seed_id="7051" seed_level="31" crop_id="5078" mature_id="5108" reward1_id="1871" reward2_id="4042" manor_id="1" is_alternative="0" limit_for_seeds="2025" limit_for_crops="2250"/>
+	<!-- Seed: Red Codran -->
+	<seed seed_id="7052" seed_level="49" crop_id="5088" mature_id="5118" reward1_id="1867" reward2_id="4043" manor_id="2" is_alternative="0" limit_for_seeds="1048" limit_for_crops="1165"/>
+	<!-- Seed: Red Codran -->
+	<seed seed_id="7053" seed_level="49" crop_id="5088" mature_id="5118" reward1_id="1867" reward2_id="4043" manor_id="4" is_alternative="0" limit_for_seeds="900" limit_for_crops="1000"/>
+	<!-- Seed: Sea Codran -->
+	<seed seed_id="7054" seed_level="50" crop_id="5091" mature_id="5121" reward1_id="1868" reward2_id="1884" manor_id="2" is_alternative="0" limit_for_seeds="838" limit_for_crops="932"/>
+	<!-- Seed: Sea Codran -->
+	<seed seed_id="7055" seed_level="50" crop_id="5091" mature_id="5121" reward1_id="1868" reward2_id="1884" manor_id="3" is_alternative="0" limit_for_seeds="900" limit_for_crops="1000"/>
+	<!-- Seed: Sea Codran -->
+	<seed seed_id="7056" seed_level="50" crop_id="5091" mature_id="5121" reward1_id="1868" reward2_id="1884" manor_id="5" is_alternative="0" limit_for_seeds="1344" limit_for_crops="1494"/>
+	<!-- Seed: Twin Codran -->
+	<seed seed_id="7057" seed_level="58" crop_id="5092" mature_id="5122" reward1_id="1871" reward2_id="4040" manor_id="1" is_alternative="0" limit_for_seeds="810" limit_for_crops="900"/>
+	<!-- Seed: Twin Codran -->
+	<seed seed_id="8223" seed_level="58" crop_id="5092" mature_id="5122" reward1_id="1871" reward2_id="4040" manor_id="8" is_alternative="0" limit_for_seeds="1800" limit_for_crops="2000"/>
+	<!-- Seed: Great Codran -->
+	<seed seed_id="8224" seed_level="61" crop_id="5094" mature_id="5124" reward1_id="1872" reward2_id="1881" manor_id="8" is_alternative="0" limit_for_seeds="1200" limit_for_crops="1333"/>
+	<!-- Seed: Desert Codran -->
+	<seed seed_id="8225" seed_level="64" crop_id="5090" mature_id="5120" reward1_id="1873" reward2_id="5550" manor_id="8" is_alternative="0" limit_for_seeds="900" limit_for_crops="1000"/>
+	<!-- Seed: Blue Coba -->
+	<seed seed_id="8226" seed_level="67" crop_id="6541" mature_id="6555" reward1_id="1894" reward2_id="4039" manor_id="8" is_alternative="0" limit_for_seeds="225" limit_for_crops="800"/>
+	<!-- Seed: Red Coba -->
+	<seed seed_id="8227" seed_level="70" crop_id="6542" mature_id="6556" reward1_id="1888" reward2_id="4040" manor_id="8" is_alternative="0" limit_for_seeds="180" limit_for_crops="666"/>
+	<!-- Seed: Golden Coba -->
+	<seed seed_id="8228" seed_level="73" crop_id="6543" mature_id="6557" reward1_id="1887" reward2_id="4041" manor_id="8" is_alternative="0" limit_for_seeds="138" limit_for_crops="571"/>
+	<!-- Seed: Desert Coba -->
+	<seed seed_id="8229" seed_level="76" crop_id="6544" mature_id="6558" reward1_id="4043" reward2_id="1890" manor_id="8" is_alternative="0" limit_for_seeds="120" limit_for_crops="500"/>
+	<!-- Seed: Alternative Twin Codran -->
+	<seed seed_id="8230" seed_level="58" crop_id="5835" mature_id="5855" reward1_id="1871" reward2_id="4040" manor_id="8" is_alternative="1" limit_for_seeds="5000" limit_for_crops="500"/>
+	<!-- Seed: Alternative Great Codran -->
+	<seed seed_id="8231" seed_level="61" crop_id="5836" mature_id="5856" reward1_id="1872" reward2_id="1881" manor_id="8" is_alternative="1" limit_for_seeds="3333" limit_for_crops="333"/>
+	<!-- Seed: Alternative Desert Codran -->
+	<seed seed_id="8232" seed_level="64" crop_id="5837" mature_id="5857" reward1_id="1873" reward2_id="5550" manor_id="8" is_alternative="1" limit_for_seeds="2500" limit_for_crops="250"/>
+	<!-- Seed: Alternative Blue Coba -->
+	<seed seed_id="8233" seed_level="67" crop_id="6548" mature_id="6562" reward1_id="1894" reward2_id="4039" manor_id="8" is_alternative="1" limit_for_seeds="625" limit_for_crops="200"/>
+	<!-- Seed: Alternative Red Coba -->
+	<seed seed_id="8234" seed_level="70" crop_id="6549" mature_id="6563" reward1_id="1888" reward2_id="4040" manor_id="8" is_alternative="1" limit_for_seeds="500" limit_for_crops="166"/>
+	<!-- Seed: Alternative Golden Coba -->
+	<seed seed_id="8235" seed_level="73" crop_id="6550" mature_id="6564" reward1_id="1887" reward2_id="4041" manor_id="8" is_alternative="1" limit_for_seeds="384" limit_for_crops="142"/>
+	<!-- Seed: Alternative Desert Coba -->
+	<seed seed_id="8236" seed_level="76" crop_id="6551" mature_id="6565" reward1_id="4043" reward2_id="1890" manor_id="8" is_alternative="1" limit_for_seeds="333" limit_for_crops="125"/>
+	<!-- Seed: Dark Coda -->
+	<seed seed_id="8237" seed_level="10" crop_id="5073" mature_id="5103" reward1_id="1864" reward2_id="1878" manor_id="9" is_alternative="0" limit_for_seeds="8784" limit_for_crops="9760"/>
+	<!-- Seed: Red Coda -->
+	<seed seed_id="8238" seed_level="13" crop_id="5068" mature_id="5098" reward1_id="1865" reward2_id="1879" manor_id="9" is_alternative="0" limit_for_seeds="8784" limit_for_crops="9760"/>
+	<!-- Seed: Chilly Coda -->
+	<seed seed_id="8239" seed_level="16" crop_id="5065" mature_id="5095" reward1_id="1866" reward2_id="1874" manor_id="9" is_alternative="0" limit_for_seeds="8784" limit_for_crops="9760"/>
+	<!-- Seed: Blue Coda -->
+	<seed seed_id="8240" seed_level="19" crop_id="5067" mature_id="5097" reward1_id="1867" reward2_id="1894" manor_id="9" is_alternative="0" limit_for_seeds="4392" limit_for_crops="4880"/>
+	<!-- Seed: Golden Coda -->
+	<seed seed_id="8241" seed_level="22" crop_id="5069" mature_id="5099" reward1_id="1868" reward2_id="1876" manor_id="9" is_alternative="0" limit_for_seeds="2196" limit_for_crops="2440"/>
+	<!-- Seed: Lute Coda -->
+	<seed seed_id="8242" seed_level="25" crop_id="5071" mature_id="5101" reward1_id="1869" reward2_id="1895" manor_id="9" is_alternative="0" limit_for_seeds="1464" limit_for_crops="1626"/>
+	<!-- Seed: Desert Coda -->
+	<seed seed_id="8243" seed_level="28" crop_id="5070" mature_id="5100" reward1_id="1870" reward2_id="1877" manor_id="9" is_alternative="0" limit_for_seeds="2196" limit_for_crops="2440"/>
+	<!-- Seed: Red Cobol -->
+	<seed seed_id="8244" seed_level="31" crop_id="5078" mature_id="5108" reward1_id="1871" reward2_id="4042" manor_id="9" is_alternative="0" limit_for_seeds="2196" limit_for_crops="2440"/>
+	<!-- Seed: Chilly Cobol -->
+	<seed seed_id="8245" seed_level="34" crop_id="5075" mature_id="5105" reward1_id="1872" reward2_id="1880" manor_id="9" is_alternative="0" limit_for_seeds="1756" limit_for_crops="1952"/>
+	<!-- Seed: Blue Cobol -->
+	<seed seed_id="8246" seed_level="37" crop_id="5077" mature_id="5107" reward1_id="1873" reward2_id="4044" manor_id="9" is_alternative="0" limit_for_seeds="878" limit_for_crops="976"/>
+	<!-- Seed: Thorn Cobol -->
+	<seed seed_id="8247" seed_level="40" crop_id="5082" mature_id="5112" reward1_id="1864" reward2_id="5549" manor_id="9" is_alternative="0" limit_for_seeds="878" limit_for_crops="976"/>
+	<!-- Seed: Golden Cobol -->
+	<seed seed_id="8248" seed_level="43" crop_id="5079" mature_id="5109" reward1_id="1865" reward2_id="4039" manor_id="9" is_alternative="0" limit_for_seeds="878" limit_for_crops="976"/>
+	<!-- Seed: Great Cobol -->
+	<seed seed_id="8249" seed_level="46" crop_id="5084" mature_id="5114" reward1_id="1866" reward2_id="1885" manor_id="9" is_alternative="0" limit_for_seeds="878" limit_for_crops="976"/>
+	<!-- Seed: Red Codran -->
+	<seed seed_id="8250" seed_level="49" crop_id="5088" mature_id="5118" reward1_id="1867" reward2_id="4043" manor_id="9" is_alternative="0" limit_for_seeds="1098" limit_for_crops="1220"/>
+	<!-- Seed: Sea Codran -->
+	<seed seed_id="8251" seed_level="50" crop_id="5091" mature_id="5121" reward1_id="1868" reward2_id="1884" manor_id="9" is_alternative="0" limit_for_seeds="878" limit_for_crops="976"/>
+	<!-- Seed: Chilly Codran -->
+	<seed seed_id="8252" seed_level="52" crop_id="5085" mature_id="5115" reward1_id="1869" reward2_id="4041" manor_id="9" is_alternative="0" limit_for_seeds="1098" limit_for_crops="1220"/>
+	<!-- Seed: Blue Codran -->
+	<seed seed_id="8253" seed_level="55" crop_id="5087" mature_id="5117" reward1_id="1870" reward2_id="1882" manor_id="9" is_alternative="0" limit_for_seeds="878" limit_for_crops="976"/>
+	<!-- Seed: Twin Codran -->
+	<seed seed_id="8254" seed_level="58" crop_id="5092" mature_id="5122" reward1_id="1871" reward2_id="4040" manor_id="9" is_alternative="0" limit_for_seeds="878" limit_for_crops="976"/>
+	<!-- Alternative Dark Coda Seed -->
+	<seed seed_id="8255" seed_level="10" crop_id="5818" mature_id="5838" reward1_id="1864" reward2_id="1878" manor_id="9" is_alternative="1" limit_for_seeds="24400" limit_for_crops="2440"/>
+	<!-- Alternative Red Coda Seed -->
+	<seed seed_id="8256" seed_level="13" crop_id="5819" mature_id="5839" reward1_id="1865" reward2_id="1879" manor_id="9" is_alternative="1" limit_for_seeds="24400" limit_for_crops="2440"/>
+	<!-- Seed: Alternative Chilly Coda -->
+	<seed seed_id="8257" seed_level="16" crop_id="5820" mature_id="5840" reward1_id="1866" reward2_id="1874" manor_id="9" is_alternative="1" limit_for_seeds="24400" limit_for_crops="2440"/>
+	<!-- Alternative Blue Coda Seed -->
+	<seed seed_id="8258" seed_level="19" crop_id="5821" mature_id="5841" reward1_id="1867" reward2_id="1894" manor_id="9" is_alternative="1" limit_for_seeds="12200" limit_for_crops="1220"/>
+	<!-- Seed: Alternative Golden Coda -->
+	<seed seed_id="8259" seed_level="22" crop_id="5822" mature_id="5842" reward1_id="1868" reward2_id="1876" manor_id="9" is_alternative="1" limit_for_seeds="6100" limit_for_crops="610"/>
+	<!-- Alternative Lute Coda Seed -->
+	<seed seed_id="8260" seed_level="25" crop_id="5823" mature_id="5843" reward1_id="1869" reward2_id="1895" manor_id="9" is_alternative="1" limit_for_seeds="4066" limit_for_crops="406"/>
+	<!-- Alternative Desert Coda Seed -->
+	<seed seed_id="8261" seed_level="28" crop_id="5824" mature_id="5844" reward1_id="1870" reward2_id="1877" manor_id="9" is_alternative="1" limit_for_seeds="6100" limit_for_crops="610"/>
+	<!-- Seed: Alternative Red Cobol -->
+	<seed seed_id="8262" seed_level="31" crop_id="5825" mature_id="5845" reward1_id="1871" reward2_id="4042" manor_id="9" is_alternative="1" limit_for_seeds="6100" limit_for_crops="610"/>
+	<!-- Seed: Alternative Chilly Cobol -->
+	<seed seed_id="8263" seed_level="34" crop_id="5826" mature_id="5846" reward1_id="1872" reward2_id="1880" manor_id="9" is_alternative="1" limit_for_seeds="4880" limit_for_crops="488"/>
+	<!-- Seed: Alternative Blue Cobol -->
+	<seed seed_id="8264" seed_level="37" crop_id="5827" mature_id="5847" reward1_id="1873" reward2_id="4044" manor_id="9" is_alternative="1" limit_for_seeds="2440" limit_for_crops="244"/>
+	<!-- Alternative Thorn Cobol Seed -->-->
+<seed seed_id="8265" seed_level="40" crop_id="5828" mature_id="5848" reward1_id="1864" reward2_id="5549" manor_id="9" is_alternative="1" limit_for_seeds="2440" limit_for_crops="244"/>
+<!-- Seed: Alternative Golden Cobol -->
+<seed seed_id="8266" seed_level="43" crop_id="5829" mature_id="5849" reward1_id="1865" reward2_id="4039" manor_id="9" is_alternative="1" limit_for_seeds="2440" limit_for_crops="244"/>
+<!-- Seed: Alternative Great Cobol -->
+<seed seed_id="8267" seed_level="46" crop_id="5830" mature_id="5850" reward1_id="1866" reward2_id="1885" manor_id="9" is_alternative="1" limit_for_seeds="3050" limit_for_crops="305"/>
+<!-- Seed: Alternative Red Codran -->
+<seed seed_id="8268" seed_level="49" crop_id="5831" mature_id="5851" reward1_id="1867" reward2_id="4043" manor_id="9" is_alternative="1" limit_for_seeds="3050" limit_for_crops="305"/>
+<!-- Seed: Alternative Sea Codran -->
+<seed seed_id="8269" seed_level="50" crop_id="5832" mature_id="5852" reward1_id="1868" reward2_id="1884" manor_id="9" is_alternative="1" limit_for_seeds="2440" limit_for_crops="244"/>
+<!-- Seed: Alternative Chilly Codran -->
+<seed seed_id="8270" seed_level="52" crop_id="5833" mature_id="5853" reward1_id="1869" reward2_id="4041" manor_id="9" is_alternative="1" limit_for_seeds="3050" limit_for_crops="305"/>
+<!-- Seed: Alternative Blue Codran -->
+<seed seed_id="8271" seed_level="55" crop_id="5834" mature_id="5854" reward1_id="1870" reward2_id="1882" manor_id="9" is_alternative="1" limit_for_seeds="2440" limit_for_crops="244"/>
+<!-- Seed: Alternative Twin Codran -->
+<seed seed_id="8272" seed_level="58" crop_id="5835" mature_id="5855" reward1_id="1871" reward2_id="4040" manor_id="9" is_alternative="1" limit_for_seeds="2440" limit_for_crops="244"/>
+<!-- Seed: Sea Coba -->
+<seed seed_id="8521" seed_level="79" crop_id="6545" mature_id="6559" reward1_id="4044" reward2_id="4042" manor_id="8" is_alternative="0" limit_for_seeds="100" limit_for_crops="444"/>
+<!-- Seed: Alternative Sea Coba -->
+<seed seed_id="8522" seed_level="79" crop_id="6552" mature_id="6566" reward1_id="4044" reward2_id="4042" manor_id="8" is_alternative="1" limit_for_seeds="277" limit_for_crops="111"/>
+<!-- Seed: Twin Coba -->
+<seed seed_id="8523" seed_level="82" crop_id="6546" mature_id="6560" reward1_id="1885" reward2_id="1893" manor_id="8" is_alternative="0" limit_for_seeds="90" limit_for_crops="400"/>
+<!-- Seed: Alternative Twin Coba -->
+<seed seed_id="8524" seed_level="82" crop_id="6553" mature_id="6567" reward1_id="1885" reward2_id="1893" manor_id="8" is_alternative="1" limit_for_seeds="250" limit_for_crops="100"/>
+<!-- Seed: Great Coba -->
+<seed seed_id="8525" seed_level="85" crop_id="6547" mature_id="6561" reward1_id="5549" reward2_id="5550" manor_id="8" is_alternative="0" limit_for_seeds="75" limit_for_crops="363"/>
+<!-- Seed: Alternative Great Coba -->
+<seed seed_id="8526" seed_level="85" crop_id="6554" mature_id="6568" reward1_id="5549" reward2_id="5550" manor_id="8" is_alternative="1" limit_for_seeds="208" limit_for_crops="90"/>
+</list>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<message id="1" content="Регистрация на ивент {0} начата. Вы можете зарегистрироваться у {1} в {2}."/>
+	<message id="2" content="Ваш уровень слишком мал для того чтобы присоединиться."/>
+	<message id="3" content="Вы не можете участвовать в ивенте с демоническим оружием."/>
+	<message id="4" content="Вы не можете участвовать с этой командой. Слишком много игроков."/>
+	<message id="5" content="Shuffle"/>
+	<message id="6" content="Balance"/>
+	<message id="7" content="Час"/>
+	<message id="8" content="минута"/>
+	<message id="9" content="секунда"/>
+	<message id="10" content="зарегистрироваться"/>
+	<message id="11" content="Игроков"/>
+	<message id="12" content="Присоединиться к команде"/>
+	<message id="13" content="Нет команды"/>
+	<message id="14" content="Death Match"/>
+	<message id="15" content="Base Wars"/>
+	<message id="16" content="Capture the Flag"/>
+	<message id="17" content="Team vs Team"/>
+	<message id="18" content="Ивент отключён"/>
+	<message id="19" content="Ждите начала"/>
+	<message id="20" content="Регистрация"/>
+	<message id="21" content="Teleportation"/>
+	<message id="22" content="Бой"/>
+	<message id="23" content="Тип ивента"/>
+	<message id="24" content="State"/>
+	<message id="25" content="Left"/>
+	<message id="26" content="Недостаточно игроков для участия. Нужно : {0}, Зарегистрировано : {1}."/>
+	<message id="27" content="{0} Event: Вы будите перемещены на поле битвы через 20 секунд!"/>
+	<message id="28" content="Хотите принять участие в ивенте? {0}?"/>
+	<message id="29" content="TvT Event: не одного победителя в этот раз."/>
+	<message id="30" content="TvT Event: ивент закончился ничьей"/>
+	<message id="31" content="TvT Event: Команда {0} выиграла ивент. Убито {1} игроков."/>
+	<message id="32" content="TvT Event: Ваша команда выиграла ТвТ ивент. Проверьте ваш рюкзак на наличие награды. Спасибо за участие."/>
+	<message id="33" content="TvT Event: Top игрок ивента {0} с {1} убийствами!"/>
+	<message id="34" content="Вы умерли. Вы воскресните через {0} секунд."/>
+	<message id="35" content="BW Event: ивент закончился ничьей (Все базы целы)"/>
+	<message id="36" content="BW Event: Ваша команда выиграла ТвТ ивент. Проверьте ваш рюкзак на наличие награды."/>
+	<message id="37" content="BW Event: Команда {0} выиграла ивент. Разрушены {1} базы."/>
+	<message id="38" content="Вы умерли. Вы воскресните через {0} секунд."/>
+	<message id="39" content="ВЫ разрушили базу врага!"/>
+	<message id="40" content="Одна с ваших баз была разрушена."/>
+	<message id="41" content="CTF Event: {0} вышел с игры с флагом. Флаг был возвращен базе."/>
+	<message id="42" content="CTF Event: Нету победителя (no points)."/>
+	<message id="43" content="CTF Event: Нету победителя (ничья)."/>
+	<message id="44" content="CTF Event: Команда {0} выиграла. {1} флагов захвачено."/>
+	<message id="45" content="CTF Event: Ваша команда выиграла ивент. Проверьте ваш рюкзак на наличие награды. Спасибо за участие."/>
+	<message id="46" content="CTF Event: Top игрок ивента {0} с {1} захваченными флагами!"/>
+	<message id="47" content="Флаг команды {0} был возвращен базе."/>
+	<message id="48" content="Флаг вашей команды был возвращен базе."/>
+	<message id="49" content="Вы не можете прятаться с флагом!"/>
+	<message id="50" content="Флаг команды {0} захвачен!"/>
+	<message id="51" content="Флаг вашей команды захвачен!"/>
+	<message id="52" content="Команда {0} захватила флаг {1} и заработала 1 очко."/>
+	<message id="53" content="Флаг вашей команды был возвращен базе."/>
+	<message id="54" content="Флаг команды {0} был возвращен базе."/>
+	<message id="55" content="Вы умерли. Вы воскресните через {0} секунд."/>
+	<message id="56" content="Вы захватили вражеский Флаг. Принесите его к своей базе!"/>
+	<message id="57" content="DM Event: {0} выиграли ивент с {1} убийствами."/>
+	<message id="58" content="Вы выиграли ивент.Проверьте ваш рюкзак на наличие награды. Спасибо за участие."/>
+	<message id="59" content="DM Event: Ивент закончился ничьей."/>
+	<message id="60" content="DM Event: You lost event. Teleportation to town is initialized."/>
+	<message id="61" content="{0} Event: Вы будите перемещены на поле битвы через 20 секунд!"/>
+	<message id="62" content="{0} Event: Регистрация будет закрыта через {1} минут."/>
+	<message id="63" content="{0} Event: Oтменён"/>
+</list>

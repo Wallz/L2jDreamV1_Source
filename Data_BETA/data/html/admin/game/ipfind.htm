@@ -1,0 +1,47 @@
+<html>
+<title>
+IP Find
+</title>
+<body>
+<center>
+<table width=240 bgcolor="12334">
+	<tr>
+		<td><button value="Main" action="bypass -h admin_admin" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Game" action="bypass -h admin_admin2" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Effects" action="bypass -h admin_admin3" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="GM" action="bypass -h admin_admin4" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<br1>
+<font color="333333" align="center">_______________________________________</font>
+<br>
+Players from 
+<font color="LEVEL">
+%ip%:
+</font>
+<br>
+<table width=270>		
+	<tr>
+		<td width=80><font color="LEVEL">Name</font></td>
+		<td width=110><font color="LEVEL">Class</font></td>
+		<td width=40><font color="LEVEL">Level</font></td>
+	</tr>
+	%results%
+</table>
+<br>
+<table>
+	<tr>
+		<td width=60>IP Number:</td>
+		<td><edit var="ip_number" width=80></td>
+		<td><button value="Find" action="bypass -h admin_find_ip $ip_number" width=40 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<br>
+Found <font color="LEVEL">%number%</font> character%end%
+<br>
+<font color="333333" align="center">_______________________________________</font>
+<br1>
+<font color="3399ff">Server Software created by L2Dream.</font>
+</center>
+</body>
+</html>

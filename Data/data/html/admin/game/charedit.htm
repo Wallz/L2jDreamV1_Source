@@ -1,0 +1,86 @@
+<html>
+<title>
+Character Edit
+</title>
+<body>
+<center>
+<table width=240 bgcolor="12334">
+	<tr>
+		<td><button value="Main" action="bypass -h admin_admin" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Game" action="bypass -h admin_admin2" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Effects" action="bypass -h admin_admin3" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="GM" action="bypass -h admin_admin4" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<br1>
+<font color="333333" align="center">_______________________________________</font>
+<br>
+<table bgcolor="000000" width=250>
+	<tr>
+		<td><font color="CC9966">HP:</font><font color=FF4040> %currenthp%/%maxhp%</font></td>
+		<td><font color="CC9966">MP:</font><font color=6161FF> %currentmp%/%maxmp%</font></td>
+		<td><font color="CC9966">CP:</font><font color=LEVEL> %currentcp%/%maxcp%</font></td>
+	</tr>
+	<tr>
+		<td><font color="CC9966">Karma:</font><font color=FF0000> %karma%</font></td>
+		<td><font color="CC9966">PvP:</font><font color=CC00FF> %pvpkills%</font></td>
+		<td><font color="CC9966">PK:</font><font color=FF0000> %pkkills%</font></td>
+	</tr>
+	<tr>
+		<td><font color="CC9966">Load:</font></td>
+		<td>%currentload%/%maxload%</td>
+		<td>(%percent%%)</td>
+	</tr>
+	<tr>
+		<td><font color="CC9966">Class:</font></td>
+		<td>%class%</td>
+		<td>AccLv:%access%</td>
+	</tr>
+</table>
+<br>
+<table width=240>
+	<tr>
+		<td><button value="Class" action="bypass -h admin_setclass" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Sex" action="bypass -h admin_setsex" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Skills" action="bypass -h admin_show_skills" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Lv/Exp/Sp" action="bypass -h admin_add_exp_sp_to_character" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<br>
+<table width=240>
+	<tr>
+		<td>Name:</td>
+		<td><edit width=80 var="name"></td>
+		<td><button value="Save" action="bypass -h admin_setname $name" height=15 width=45 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td>Title:</td>
+		<td><edit width=80 var="title"></td>
+		<td><button value="Save" action="bypass -h admin_settitle $title" height=15 width=45 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td>Name color:</td>
+		<td><edit width=80 var="color"></td>
+		<td><button value="Set" action="bypass -h admin_setcolor $color" height=15 width=45 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td>Recommendations:</td>
+		<td><edit width=80 var="reco"></td>
+		<td><button value="Save" action="bypass -h admin_rec $reco" height=15 width=45 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td>Access Level:</td>
+		<td><edit width=80 var="acc"></td>
+		<td><button value="Save" action="bypass -h admin_changelvl $acc" height=15 width=45 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<br>
+<br>
+<button value="Back" action="bypass -h admin_current_player" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2">
+<br1>
+<font color="333333" align="center">_______________________________________</font>
+<br1>
+<font color="3399ff">Server Software created by L2Dream.</font>
+</center>
+</body>
+</html>

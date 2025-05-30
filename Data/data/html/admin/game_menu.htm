@@ -1,0 +1,92 @@
+<html>
+<title>
+Game Menu
+</title>
+<body>
+<center>
+<table width=240 bgcolor="12334">
+	<tr>
+		<td><button value="Main" action="bypass -h admin_admin" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Game" action="bypass -h admin_admin2" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Effects" action="bypass -h admin_admin3" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="GM" action="bypass -h admin_admin4" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<br1>
+<font color="333333" align="center">_______________________________________</font>
+<br>
+<table width=210>
+	<tr>
+		<td><font color="LEVEL">Game:</font></td>
+		<td><edit var="menu_command" width=140 height=15></td>
+	</tr>
+</table>
+<br>
+<font color="LEVEL">
+Character:
+</font>
+<table width=240>
+	<tr>
+		<td><button value="Manage" action="bypass -h admin_char_manage" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="List" action="bypass -h admin_show_characters 0" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Set Name" action="bypass -h admin_setname $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Set Title" action="bypass -h admin_settitle $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td><button value="Go To" action="bypass -h admin_goto_char_menu $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Recall" action="bypass -h admin_recall_char_menu $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Find" action="bypass -h admin_find_character $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Repair" action="bypass -h admin_repair $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<br>
+<table width=240>
+	<tr>
+		<td><button value="ChatBan" action="bypass -h admin_banchat $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="ChatUnBan" action="bypass -h admin_unbanchat $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Jail" action="bypass -h admin_jail $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Jail Out" action="bypass -h admin_unjail $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td><button value="Kick" action="bypass -h admin_kick_menu $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Ban" action="bypass -h admin_ban_menu $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Karma" action="bypass -h admin_setkarma $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="No Karma" action="bypass -h admin_nokarma" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<br>
+<table width=240>
+	<tr>
+		<td><button value="Kill" action="bypass -h admin_kill_menu" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Res" action="bypass -h admin_res" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>	
+		<td><button value="Heal" action="bypass -h admin_heal" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Full Food" action="bypass -h admin_fullfood" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td><button value="Hero" action="bypass -h admin_sethero" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Noble" action="bypass -h admin_setnoble" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>	
+	</tr>
+</table>
+<br>
+<font color="LEVEL">Clan:</font>
+<table width=240>
+	<tr>
+		<td><button value="Create" action="bypass -h admin_pledge create $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Delete" action="bypass -h admin_pledge dismiss $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Set Level" action="bypass -h admin_pledge setlevel $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Reputation" action="bypass -h admin_pledge rep $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td><button value="Castles/CH" action="bypass -h admin_siege" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Info" action="bypass -h admin_pledge info" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Fortress" action="bypass -h admin_fortsiege" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Clan Wait" action="bypass -h admin_remclanwait" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<br>
+<font color="333333" align="center">_______________________________________</font>
+<br1>
+<font color="3399ff">Server Software created by L2Dream.</font>
+</center>
+</body>
+</html>

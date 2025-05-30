@@ -1,0 +1,69 @@
+<html>
+<title>
+Teleport Admin Menu
+</title>
+<body>
+<center>
+<table width=240 bgcolor="12334">
+	<tr>
+		<td><button value="Main" action="bypass -h admin_admin" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Game" action="bypass -h admin_admin2" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Effects" action="bypass -h admin_admin3" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="GM" action="bypass -h admin_admin4" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<br1>
+<font color="333333" align="center">_______________________________________</font>
+<br>
+<font color="LEVEL">Move to common locations:</font>
+<br>
+<table width=240>
+	<tr>
+		<td><button value="Towns" action="bypass -h admin_help main/teleports/towns.htm" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Raid Bosses" action="bypass -h admin_help main/teleports/raid.htm" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td><button value="Castles" action="bypass -h admin_help main/teleports/castles.htm" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Other Locations" action="bypass -h admin_help main/teleports/other.htm" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td><button value="Fortresses" action="bypass -h admin_help main/teleports/others/fortress.htm" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="C2 Locations" action="bypass -h admin_help main/teleports/locations/c2.htm" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td><button value="Arenas" action="bypass -h admin_help main/teleports/others/arenas.htm" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="C4 Locations" action="bypass -h admin_help main/teleports/locations/c4.htm" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td><button value="Seven Signs" action="bypass -h admin_help main/teleports/others/necat.htm" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="C5 Locations" action="bypass -h admin_help main/teleports/locations/c5.htm" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td><button value="Dimensional Rift" action="bypass -h admin_help main/teleports/others/dimrift.htm" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Interlude" action="bypass -h admin_help main/teleports/locations/interlude.htm" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<br>
+<button value="GM Room" action="bypass -h admin_move_to 85332 16186 -1254" width=100 height=15 back="sek.cbui94" fore="sek.cbui92"><br>
+<br1>
+<font color="LEVEL">
+Move to given Coords:
+</font>
+<table width=260>
+	<tr>
+		<td width=15><font color="00FFFF">X:</font></td>
+		<td><edit var="char_cord_x" width=55></td>
+		<td width=15><font color="00FFFF">Y:</font></td>
+		<td><edit var="char_cord_y" width=55></td>
+		<td width=15><font color="00FFFF">Z:</font></td>
+		<td><edit var="char_cord_z" width=55></td>
+		<td><button value="Go" action="bypass -h admin_move_to $char_cord_x $char_cord_y $char_cord_z" width=55 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<br>
+<font color="333333" align="center">_______________________________________</font>
+<br1>
+<font color="3399ff">Server Software created by L2Dream.</font>
+</center>
+</body>
+</html>

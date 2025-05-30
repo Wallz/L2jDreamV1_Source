@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list maintainEnchantment="false">
+	<!-- (A grade shield dark crystal) -->
+	<item id="1">
+		<ingredient id="57" count="1000000"/>
+		<production id="641" count="1"/>
+	</item>
+	<!-- (A grade shield nightmare) -->
+	<item id="1">
+		<ingredient id="57" count="1000000"/>
+		<production id="2498" count="1"/>
+	</item>
+</list>

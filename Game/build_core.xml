@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Dream_core" default="dist" basedir=".">
+	<property name="src" location="java"/>
+	<property name="lib" location="lib"/>
+	<property name="build" location="build"/>
+	<property name="build.classes" location="${build}/classes"/>
+	
+	<path id="classpath">
+		<fileset dir="${lib}">
+		<include name="*.jar"/>
+		</fileset>
+	</path>
+	
+	<target name="dist">
+		<delete dir="${build}"/>
+		<mkdir dir="${build}" />
+		<mkdir dir="${build.classes}" />
+			
+		<javac destdir="${build.classes}" optimize="on" compiler="javac1.7" debug="true" debuglevel="lines,vars,source" includeantruntime="false" source="1.7" target="1.7" encoding="utf-8" nowarn="off">
+			<src path="${src}"/>
+			<classpath refid="classpath"/>
+		</javac>
+		
+		<jar destfile="${build}/l2dream.jar">
+					<fileset dir="${build.classes}"/>
+					<manifest>
+						<attribute name="Main-Class" value="com.src.util.services.ServerType"/>
+						<attribute name="Class-Path" value=". c3p0-0.9.1.2.jar commons-lang-2.1.jar core-3.3.0.jar java-engine-1.7.jar javolution-5.5.1.jar jython-engine-2.2.1.jar jython.jar mysql-connector-java-5.1.18-bin.jar trove-3.0.2.jar"/>
+					</manifest>
+				</jar>
+		
+		<delete dir="${build.classes}"/>
+		
+	</target>
+	
+</project>

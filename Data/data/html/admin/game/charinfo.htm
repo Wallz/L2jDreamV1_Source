@@ -1,0 +1,90 @@
+<html>
+<title>
+Character Info
+</title>
+<body>
+<center>
+<table width=240 bgcolor="12334">
+	<tr>
+		<td><button value="Main" action="bypass -h admin_admin" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Game" action="bypass -h admin_admin2" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Effects" action="bypass -h admin_admin3" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="GM" action="bypass -h admin_admin4" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<br1>
+<font color="333333" align="center">_______________________________________</font>
+<br1>
+<table width=240>
+	<tr>
+		<td><button value="Go To" action="bypass -h admin_goto_char_menu %name%" width=55 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Recall" action="bypass -h admin_recall_char_menu %name%" width=55 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Edit" action="bypass -h admin_edit_character" width=55 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Dual Box" action="bypass -h admin_find_dualbox" width=55 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+	<tr>
+		<td><button value="Kick" action="bypass -h admin_kick_menu %name%" width=55 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Ban Acc" action="bypass -h admin_ban_menu %name%" width=55 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Ban Chr" action="bypass -h admin_changelvl %name% -100" width=55 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Account" action="bypass -h admin_find_account %name%" width=55 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<br>
+<table bgcolor="000000" width=250>
+	<tr>
+		<td><font color="CC9966">Account:</font> %account%</td>
+		<td><font color="CC9966">IP:</font> %ip%</td>
+	</tr>	
+	<tr>
+		<td><font color="CC9966">Name:</font> %name%</td>
+		<td><font color="CC9966">Level:</font> %level%</td>
+	</tr>	
+	<tr>
+		<td><font color="CC9966">Clan:</font> %clan%</td>
+		<td><font color="CC9966">Exp:</font> %xp%</td>
+	</tr>
+	<tr>
+		<td><font color="CC9966">Class:</font> %class%</td>
+		<td><font color="CC9966">SP:</font> %sp%</td>
+	</tr>      
+	<tr>
+		<td><font color="CC9966">Character Coordinates:</font></td>
+		<td>%x% %y% %z%</td>
+	</tr>
+</table>
+<br>
+<table bgcolor="000000" width=250>
+	<tr>
+		<td><font color="CC9966">HP:</font><font color=FF4040> %currenthp%/%maxhp%</font></td>
+		<td><font color="CC9966">MP:</font><font color=6161FF> %currentmp%/%maxmp%</font></td>
+		<td><font color="CC9966">CP:</font><font color=LEVEL> %currentcp%/%maxcp%</font></td>
+	</tr>
+	<tr>
+		<td><font color="CC9966">Karma:</font><font color=FF0000> %karma%</font></td>
+		<td><font color="CC9966">PvP:</font><font color=CC00FF> %pvpkills%</font></td>
+		<td><font color="CC9966">PK:</font><font color=FF0000> %pkkills%</font></td>
+	</tr>
+	<tr>
+		<td><font color="CC9966">Load:</font></td>
+		<td>%currentload%/%maxload%</td>
+		<td>(%percent%%)</td>
+	</tr>
+	<tr>
+		<td><font color="CC9966">Class:</font></td>
+		<td>%class%</td>
+		<td><font color="CC9966">AccLv:</font> %access%</td>
+	</tr>
+</table>
+<br>
+<table bgcolor="000000" width=250>	
+<tr><td><font color="CC9966">Patk:</font> %patk%</td><td><font color="CC9966">Matk:</font> %matk%</td><td><font color="CC9966">Pdef:</font> %pdef%</td><td><font color="CC9966">Mdef:</font> %mdef%</td></tr>
+<tr><td><font color="CC9966">Accu:</font> %accuracy%</td><td><font color="CC9966">Evas:</font> %evasion%</td><td><font color="CC9966">Crit:</font> %critical%</td><td><font color="CC9966">Speed:</font> %runspeed%</td></tr>
+<tr><td><font color="CC9966">AtkSpd:</font> %patkspd%</td><td><font color="CC9966">MSpd:</font> %matkspd%</td></tr>
+</table>
+<br1>
+<font color="333333" align="center">_______________________________________</font>
+<br1>
+<font color="3399ff">Server Software created by L2Dream.</font>
+</center>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<acessLevel level="1" name="Master Access" nameColor="0099FF" useNameColor="true" titleColor="0099FF" useTitleColor="false" isGm="true" allowPeaceAttack="true" allowFixedRes="true" allowTransaction="true" allowAltg="true" giveDamage="true" takeAggro="true" gainExp="true" canDisableGmStatus="true"/>
+	<acessLevel level="2" name="Head GM" nameColor="00FFFF" useNameColor="true" titleColor="00FFFF" useTitleColor="false" isGm="true" allowPeaceAttack="false" allowFixedRes="true" allowTransaction="true" allowAltg="true" giveDamage="true" takeAggro="true" gainExp="true" canDisableGmStatus="true"/>
+	<acessLevel level="3" name="Event GM" nameColor="00FFFF" useNameColor="true" titleColor="00FFFF" useTitleColor="false" isGm="true" allowPeaceAttack="false" allowFixedRes="true" allowTransaction="false" allowAltg="true" giveDamage="false" takeAggro="false" gainExp="false" canDisableGmStatus="false"/>
+	<acessLevel level="4" name="Support GM" nameColor="00FFFF" useNameColor="true" titleColor="00FFFF" useTitleColor="false" isGm="true" allowPeaceAttack="false" allowFixedRes="true" allowTransaction="false" allowAltg="true" giveDamage="false" takeAggro="false" gainExp="false" canDisableGmStatus="false"/>
+	<acessLevel level="5" name="General GM" nameColor="00FFFF" useNameColor="true" titleColor="00FFFF" useTitleColor="false" isGm="true" allowPeaceAttack="false" allowFixedRes="true" allowTransaction="false" allowAltg="true" giveDamage="false" takeAggro="false" gainExp="false" canDisableGmStatus="false"/>
+	<acessLevel level="6" name="Test GM" nameColor="FFFFFF" useNameColor="true" titleColor="FFFFFF" useTitleColor="false" isGm="false" allowPeaceAttack="false" allowFixedRes="true" allowTransaction="false" allowAltg="true" giveDamage="false" takeAggro="false" gainExp="false" canDisableGmStatus="false"/>
+</list>

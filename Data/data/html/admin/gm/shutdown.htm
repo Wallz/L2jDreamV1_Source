@@ -1,0 +1,58 @@
+<html>
+<title>
+Server Shutdown
+</title>
+<body>
+<center>
+<table width=240 bgcolor="12334">
+	<tr>
+		<td><button value="Main" action="bypass -h admin_admin" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Game" action="bypass -h admin_admin2" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="Effects" action="bypass -h admin_admin3" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td><button value="GM" action="bypass -h admin_admin4" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<br1>
+<font color="333333" align="center">_______________________________________</font>
+<br>
+<table width=240>
+	<tr>
+		<td width=100><font color="LEVEL">Shutdown time:</font></td>
+		<td><edit var="menu_command" width=120 height=15></td>
+	</tr>
+</table>
+<br>
+<br>
+<table width=260>	
+	<tr>
+		<td><font color="CC9966">Players Online:</font></td>
+		<td>%count%</td>
+	</tr>
+	<tr>
+		<td><font color="CC9966">Used Memory:</font></td>
+		<td>%used% bytes</td>
+	</tr>
+	<tr>
+		<td><font color="CC9966">Server Rates:</font></td>
+		<td>%xp%x, %sp%x, %adena%x, %drop%x</td>
+	</tr>
+		<tr><td><font color="CC9966">Game Time:</font></td>
+		<td>%time%</td>
+	</tr>
+</table>
+<br>
+<br>
+<table>
+	<tr>
+		<td><button value="Shutdown" action="bypass -h admin_server_shutdown $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Restart" action="bypass -h admin_server_restart $menu_command" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		<td><button value="Abort" action="bypass -h admin_server_abort" width=60 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+	</tr>
+</table>
+<br>
+<font color="333333" align="center">_______________________________________</font>
+<br1>
+<font color="3399ff">Server Software created by L2Dream.</font>
+</center>
+</body>
+</html>

@@ -1,0 +1,72 @@
+/*
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2, or (at your option)
+ * any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
+ * 02111-1307, USA.
+ *
+ * http://www.gnu.org/copyleft/gpl.html
+ */
+package com.src.gameserver.network.serverpackets;
+
+import com.src.gameserver.model.entity.sevensigns.SevenSigns;
+
+public class SignsSky extends L2GameServerPacket
+{
+	private static final String _S__F8_SignsSky = "[S] F8 SignsSky";
+
+	private static int _state = 0;
+
+	public SignsSky()
+	{
+		int compWinner = SevenSigns.getInstance().getCabalHighestScore();
+
+		if(SevenSigns.getInstance().isSealValidationPeriod())
+		{
+			if(compWinner == SevenSigns.CABAL_DAWN)
+			{
+				_state = 2;
+			}
+			else if(compWinner == SevenSigns.CABAL_DUSK)
+			{
+				_state = 1;
+			}
+		}
+	}
+
+	public SignsSky(int state)
+	{
+		_state = state;
+	}
+
+	@Override
+	protected final void writeImpl()
+	{
+		writeC(0xf8);
+
+		if(_state == 2)
+		{
+			writeH(258);
+		}
+		else if(_state == 1)
+		{
+			writeH(257);
+		}
+	}
+
+	@Override
+	public String getType()
+	{
+		return _S__F8_SignsSky;
+	}
+
+}

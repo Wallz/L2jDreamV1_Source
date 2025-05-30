@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project name="Dream_DataPack" default="dist" basedir=".">
+
+	<property name="build" location="build"/>
+	<property name="build.dist" location="${build}/dist"/>
+	<property name="build.dist.game" location="${build.dist}/game"/>
+	<property name="build.dist.db" location="${build.dist}/database"/>
+
+	<target name="init" description="Create the output directories. Do nothing if dirs were already created">
+		<mkdir dir="${build}"/>
+		<mkdir dir="${build.dist}"/>
+		<mkdir dir="${build.dist.game}"/>
+		<mkdir dir="${build.dist.db}"/>
+	</target>
+
+	<target name="export" depends="init" description="Synchronizes build space contents with project.">
+		<sync todir="${build.dist.game}/data">
+			<fileset dir="${basedir}/data">
+				<exclude name=".project"/>
+				<exclude name="log/**"/>
+				<exclude name="cachedir/**"/>
+				<exclude name="**.svn**"/>
+				<exclude name="**/*.class"/>
+				<exclude name="**/*.jar"/>
+				<include name="**/*.*"/>
+			</fileset>
+		</sync>
+		<sync todir="${build.dist.db}">
+			<fileset dir="${basedir}/db/">
+				<include name="*.*"/>
+				<include name="sql/characters/*.*"/>
+				<include name="sql/custom/*.*"/>
+				<include name="sql/events/*.*"/>
+				<include name="sql/features/*.*"/>
+				<include name="sql/installer/*.*"/>
+			</fileset>
+		</sync>
+	</target>  
+
+	<target name="dist" depends="export" description="Creates a ZIP file. Suitable for distribution but building takes longer. See dist-deflate for faster builds.">
+		<zip destfile="${build}/DataPack.zip" basedir="${build.dist}" update="true"/>
+	</target>
+
+	<target name="dist-deflate" depends="export" description="Creates a datapack ZIP file with NO compression (bigger ZIP file but faster than regular dist target)">
+		<zip destfile="${build}/DataPack.zip-nocompress.zip" basedir="${build.dist}" update="true" compress="false"/>
+	</target>
+
+	<target name="clean" description="Deletes the whole build space and existing packages.">
+		<delete dir="${build}"/>
+	</target>
+
+	<target name="distclean" description="Deletes the datapack distribution ZIP file only, preserving synchronized build files.">
+		<delete file="${build}/DataPack.zip.zip"/>
+		<delete file="${build}/DataPack.zip-nocompress.zip"/>
+		<delete file="${build}/DataPack.zip-nocompress.zip"/>
+	</target>
+	
+</project>
